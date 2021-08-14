@@ -68,8 +68,8 @@ a {
     position: fixed;
     z-index: 2;
     color: #A41034;
-    left: 5%;
-    top: -5%;
+    left: 5vw;
+    top: -2.5vw;
     width: 50%;
     font-family: Helvetica;
     font-size: 2.8vw;
