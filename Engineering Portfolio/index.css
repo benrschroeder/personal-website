@@ -6,7 +6,8 @@ html, body {
     right:0;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(white, #bcbcbc);
+    font-family:Arial, Helvetica, sans-serif;
+    /*background-image: linear-gradient(white, #bcbcbc);*/
 }
 
 
@@ -42,8 +43,8 @@ a {
 }
 
 .navbar a {
-    font-family: Helvetica;
-    color: black;
+    
+    color: #808080;
     /*height: 3vw;*/
     z-index: 2;
 }
@@ -71,7 +72,6 @@ a {
     left: 5vw;
     top: -2.5vw;
     width: 50%;
-    font-family: Helvetica;
     font-size: 2.8vw;
 }
 
@@ -84,7 +84,7 @@ a {
 
 
 
-/*Heading Section*/
+/*End Heading Section*/
 
 /*-----------------------------------------------------------------*/
 
@@ -92,14 +92,13 @@ a {
 
 .main {
     width: 100%;
-    z-index: 1;
+    z-index: 0;
     overflow-x: hidden;
     overflow-y: hidden;
     position: relative;
     text-align: left;
-    top: 73vw;
-    /*background-color: #A41034;*/
-    
+    top: 100%;
+      
 }
 
 /*"Hi! I'm Ben Schroeder.*/
@@ -107,27 +106,80 @@ a {
     display: inline-block;
     text-align: left;
     z-index: 2;
-    font-family: Helvetica;
-    font-size: 5vw;
+    font-size: 2.5vw;
+    font-weight: normal;
     position: fixed;
-    left: 4.75vw;
-    top: 8.75vw;
-    color: black;
+    left: 10%;
+    top: 24.75%;
+    color: #A41034;
     animation: 0.7s ease-out 0s 1 slideInFromRight;
+    
     
 }
 
+.main h2{
+    display: inline-block;
+    text-align: left;
+    z-index: 2;
+    font-size: 2.5vw;
+    font-weight: normal;
+    position: fixed;
+    left: 47%;
+    top: 23.8%;
+    color: black;
+    animation: 0.7s ease-out 0s 1 slideInFromRight;
+    
+    
+}
+
+
+.main h3{
+    display: inline-block;
+    text-align: left;
+    z-index: 2;
+    font-size: 2.5vw;
+    font-weight: normal;
+    position: fixed;
+    left: 56.5%;
+    top: 22.75%;
+    color: black;
+    animation: 0.7s ease-out 0s 1 slideInFromRight;
+    
+    
+}
+
+/*-------Animation------*/
+
+span:before{
+    content: "";
+    animation: animate infinite 12s;
+}
+
+
+@keyframes animate {
+    0% {opacity:1; content: "student"}
+    12% {opacity:0;}
+    33.33% {opacity:1; content: "mechanical engineer"}
+    45% {opacity:0;}
+    66.66% {opacity:1; content: "researcher"}
+    78% {opacity:0;}
+    100% {opacity:1; content: "student"}
+}
+
+/*-------End Animation------*/
+
 /*I am*/
+
 .main p{
     text-align: left;
     z-index: 2;
-    font-family: Helvetica;
-    font-size: 1.5vw;
-    left: 5%;
-    top: 19vw;
+    font-size: 1.35vw;
+    left: 10%;
+    top: 40%;
     color: black;
     position: fixed;
     width: 50%;
+    text-align: justify;
     
 }
 
@@ -135,28 +187,26 @@ a {
 .main p1{
     text-align: left;
     z-index: 1;
-    font-family: Helvetica;
-    font-size: 1.5vw;
-    left: 5%;
-    top: 26vw;
+    font-size: 1.35vw;
+    left: 10%;
+    top: 53%;
     color: black;
     position: fixed;
     width: 50%;
-    
+    text-align: justify;
 }
 
 /*My goal*/
 .main p2{
     text-align: left;
     z-index: 2;
-    font-family: Helvetica;
-    font-size: 1.5vw;
-    left: 5%;
-    top: 31vw;
+    font-size: 1.35vw;
+    left: 10%;
+    top: 63%;
     color: black;
     position: fixed;
     width: 50%;
-    
+    text-align: justify;
 }
 
 
@@ -165,50 +215,35 @@ a {
 }
 
 
-.arrow {
-    border: solid black;
-    border-width: 0 3px 3px 0;
-    display: inline-block;
-    padding: 0.3vw;
-    top: 38vw;
-    margin-left: 4.5vw;
-    position: fixed;
-    z-index: 2;
-    
-  }
-  
-  .right {
-    transform: rotate(-45deg);
-    -webkit-transform: rotate(-45deg);
-  }
-
-/*Resume*/
-.main a{
-    text-align: left;
-    z-index: 2;
-    font-family: Helvetica;
-    font-size: 1.5vw;
-    top: 32.7vw;
-    margin-left: 6vw;
-    color: black;
-    position: fixed;
-    transition: 0s;
-    font-weight: bold;
-}
-  
 /*Line*/
-hr{
-    top: 18vw;
+.vl {
+    border-left: 1.75px solid black;
+    height: 33%;
     position: fixed;
-    z-index: 2;
-    left: 5vw;
-    width: 60vw;
-    border: 2px solid #A41034;
-    background-color: #A41034;
-    animation: 0.7s ease-out 0s 1 slideInFromLeft;
+    left: 8%;
+    top: 41.75%;
+  }
+
+.dot {
+    height: 6px;
+    width: 6px;
+    top: 40.75%;
+    left: 7.835%;
+    position: fixed;
+    background-color: black;
+    border-radius: 50%;
 }
 
-
+.dots {
+    height: 6px;
+    width: 6px;
+    top: 74.75%;
+    left: 7.835%;
+    position: fixed;
+    background-color: black;
+    border-radius: 50%;
+}
+  
 
 .main a:hover{
     color: #A41034;
@@ -216,6 +251,47 @@ hr{
 
 
 /*Main Section*/
+
+
+/*Footer*/
+#linkedin{
+    z-index: 2;
+    height: 6%;
+    top: 86%;
+    left: 75%;
+    position: fixed;
+    text-align: center;
+}
+
+#email{
+    z-index: 2;
+    height: 7%;
+    top: 84.75%;
+    left: 80%;
+    position: fixed;
+    text-align: center;
+}
+
+#download{
+    z-index: 2;
+    height: 6%;
+    top: 85.5%;
+    left: 86%;
+    position: fixed;
+    text-align: center;
+}
+
+#wave{
+    z-index: 1;
+    height: 85%;
+    top: 20%;
+    left: 39%;
+    transform: rotate(-10deg);
+    position: fixed;
+    text-align: center;
+}
+
+/*End Footer*/
 
 
 /*-----------------------------------------------------------------*/

@@ -1,15 +1,14 @@
-* {box-sizing: border-box}
 html, body {
-    position:fixed;
+    position:relative;
     top:0;
     bottom:0;
     left:0;
     right:0;
     width: 100%;
-    height: 45vw;
-    font-family:Arial, Helvetica, sans-serif;
+    height: 100%;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
-
 
 
 /*Nav Bar*/
@@ -96,31 +95,13 @@ a {
 /*Image Settings*/
 
 
-#rocket{
-    border-radius: 1.5vw;
-    z-index: 2;
-    -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(70%, transparent) , to(rgba(250, 250, 250, 0.35)));
+.rectangle{
+    height: 20vw;
+    width: 70vw;
+    border-radius: 2vw;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(130, 130, 130, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
-#cube{
-    border-radius: 1.5vw;
-    z-index: 2;
-    -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(70%, transparent) , to(rgba(250, 250, 250, 0.35)));
-}
-
-#boom{
-    border-radius: 1.5vw;
-    z-index: 2;
-    -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(70%, transparent) , to(rgba(250, 250, 250, 0.35)));
-}
-
-#rov{
-    border-radius: 1.5vw;
-    z-index: 2;
-    -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(70%, transparent) , to(rgba(250, 250, 250, 0.35)));
-}
-
-
 
 
 /*End Image Settings*/
@@ -131,7 +112,7 @@ a {
     height: 4vw;
     width: 4vw;
     top: 47%;
-    left: 15%;
+    left: 13%;
     z-index: 3;
     position: fixed;
     background-color: #A41034;
@@ -143,7 +124,7 @@ a {
     height: 4vw;
     width: 4vw;
     top: 47%;
-    left: 41%;
+    left: 84%;
     z-index: 3;
     position: fixed;
     background-color: #A41034;
@@ -157,7 +138,7 @@ a {
     max-width: 26vw;
     z-index: 2;
     top: 30%;
-    left: 17vw;
+    left: 15%;
     position: fixed;
     margin: auto;
 }
@@ -167,7 +148,7 @@ a {
     z-index: 4;
     cursor: pointer;
     position: fixed;
-    top: 36.5%;
+    top: 36.25%;
     width: 11vw;
     height: 1.5%;
     color: white;
@@ -179,11 +160,11 @@ a {
 
 /* Position the "next button" to the right */
 .next {
-    left: 42.4vw;
+    left: 84.4vw;
 }
 
 .prev{
-    left: 16.2vw;
+    left: 14vw;
 }
 
 /* On hover, add a black background color with a little bit see-through */
@@ -214,47 +195,36 @@ a {
 .mySlides h1{
     text-align: left;
     z-index: 2;
-    font-size: 1.75vw;
+    font-size: 1.25vw;
     font-weight: bold;
     position: fixed;
-    left: 50%;
-    top: 28%;
-    color: #A41034;
+    left: 23%;
+    top: 45.5%;
+    color: #808080;
     /*animation: 0.7s ease-out 0s 1 slideInFromRight;*/
     
 }
 
 p{
-    text-align: left;
     z-index: 2;
-    font-size: 1.35vw;
-    font-weight: bold;
+    font-size: 1.1vw;
     position: fixed;
-    left: 50%;
-    top: 33%;
+    width: 37%;
+    left: 23%;
+    top: 49%;
     color: black;
+    text-align: justify;
 }
 
 p1{
-    text-align: left;
     z-index: 2;
-    font-size: 1.55vw;
-    font-weight: bold;
+    font-size: 1.1vw;
     position: fixed;
-    left: 50%;
-    top: 43%;
-    color: #808080;
-}
-
-p2{
-    text-align: justify;
-    z-index: 2;
-    font-size: 1.35vw;
-    position: fixed;
-    width: 38%;
-    left: 50%;
-    top: 48%;
+    width: 55.5%;
+    left: 23%;
+    top: 51.5%;
     color: black;
+    text-align: justify;
 }
 
 .mySlides a{
@@ -290,25 +260,7 @@ hr{
     background-color: #A41034;
 }
 
-.dot {
-    height: 6px;
-    width: 6px;
-    top: 83.1%;
-    left: 10%;
-    position: fixed;
-    background-color: #A41034;
-    border-radius: 50%;
-}
 
-.dots {
-    height: 6px;
-    width: 6px;
-    top: 83.1%;
-    left: 90%;
-    position: fixed;
-    background-color: #A41034;
-    border-radius: 50%;
-}
 
 .tri {
     width: 0;
@@ -329,7 +281,7 @@ hr{
 	border-top: 1.1vw solid #A41034;
     position: fixed;
     top: 83.5%;
-    left: 41.25%;
+    left: 50.25%;
 }
 
 
@@ -341,20 +293,30 @@ hr{
 	border-top: 1.1vw solid #A41034;
     position: fixed;
     top: 83.5%;
-    left: 57.5%;
-}
-
-
-.tri3 {
-    width: 0;
-	height: 0;
-	border-left: .8vw solid transparent;
-	border-right: .8vw solid transparent;
-	border-top: 1.1vw solid #A41034;
-    position: fixed;
-    top: 83.5%;
     left: 73%;
 }
+
+
+.dot {
+    height: 6px;
+    width: 6px;
+    top: 83.1%;
+    left: 10%;
+    position: fixed;
+    background-color: #A41034;
+    border-radius: 50%;
+}
+
+.dots {
+    height: 6px;
+    width: 6px;
+    top: 83.1%;
+    left: 90%;
+    position: fixed;
+    background-color: #A41034;
+    border-radius: 50%;
+}
+
 /*End Line*/
 
 /*Line Text*/
@@ -377,31 +339,19 @@ p4{
     font-weight: bold;
     position: fixed;
     width: 10%;
-    left: 37%;
+    left: 46%;
     top: 88%;
     color: black;
 }
 
 p5{
-    text-align: left;
-    z-index: 2;
-    font-size: 1vw;
-    font-weight: bold;
-    position: fixed;
-    width: 38%;
-    left: 55%;
-    top: 88%;
-    color: black;
-}
-
-p6{
     text-align: center;
     z-index: 2;
     font-size: 1vw;
     font-weight: bold;
     position: fixed;
-    width: 12%;
-    left: 68%;
+    width: 8%;
+    left: 70%;
     top: 88%;
     color: black;
 }
@@ -427,34 +377,56 @@ p8{
     font-weight: bold;
     position: fixed;
     width: 10%;
-    left: 37%;
+    left: 46%;
     top: 88%;
     color: #A41034;
 }
 
 
 p9{
-    text-align: left;
-    z-index: 2;
-    font-size: 1vw;
-    font-weight: bold;
-    position: fixed;
-    width: 38%;
-    left: 55%;
-    top: 88%;
-    color: #A41034;
-}
-
-p10{
     text-align: center;
     z-index: 2;
     font-size: 1vw;
     font-weight: bold;
     position: fixed;
-    width: 12%;
-    left: 68%;
+    width: 8%;
+    left: 70%;
     top: 88%;
     color: #A41034;
 }
 
 /*End Line Text*/
+
+/*-----------------------------------------------------------------*/
+
+
+/*Images*/
+#hufpi{
+    z-index: 2;
+    top: 36%;
+    left: 23%;
+    position: fixed;
+    height: 8%;
+}
+
+#dod{
+    z-index: 2;
+    top: 36%;
+    left: 35%;
+    position: fixed;
+    height: 8%;
+}
+
+#report{
+    z-index: 2;
+    top: 36%;
+    left: 66%;
+    position: fixed;
+    height: 32%;
+    border-radius: 1vw;
+    -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(80%, transparent) , to(rgba(250, 250, 250, 0.35)));
+
+}
+
+
+/*End Images*/
