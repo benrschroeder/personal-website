@@ -64,7 +64,7 @@ ul {
 /*Main Section*/
 
 /*Projects:*/
-/*Project Boom*/
+/*Harvard Satellite Team*/
 .main h1{
     display: inline-block;
     text-align: left;
@@ -72,12 +72,12 @@ ul {
     font-size: 3vw;
     position: absolute;
     left: 7.5vw;
-    top: 9.5vw;
+    top: 10vw;
     color: #A41034;
     animation: 0.7s ease-out 0s 1 slideInFromRight;   
 }
 
-/*Project CAD Lead*/
+/*Payload Team Lead, Bus Team Member*/
 .main h2{
     display: inline-block;
     text-align: left;
@@ -85,17 +85,17 @@ ul {
     font-size: 1.5vw;
     position: absolute;
     left: 7.5vw;
-    top: 13.75vw;
+    top: 14vw;
     color: black;
     animation: 0.7s ease-out 0s 1 slideInFromRight;
     
 }
 
-#boom{
+#rocket{
     z-index: 2;
-    width: 33vw;
-    top: 12.5vw;
-    left: 55vw;
+    width: 32vw;
+    top: 13vw;
+    left: 59vw;
     display: inline-block;
     position: absolute;
     text-align: left;
@@ -125,7 +125,7 @@ ul {
     top: 20vw;
     color: black;
     position: absolute;
-    width: 40vw;
+    width: 47vw;
     text-align: justify;
 }
 
@@ -165,10 +165,10 @@ hr{
     box-shadow: 0 4px 8px 0 rgba(130, 130, 130, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-#cutaway{
+#igniter{
     z-index: 2;
     width: 25vw;
-    top: 46vw;
+    top: 47vw;
     left: 11vw;
     display: inline-block;
     position: absolute;
@@ -198,21 +198,11 @@ hr1{
     box-shadow: 0 4px 8px 0 rgba(130, 130, 130, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-#cfd{
+#offloader{
     z-index: 2;
-    width: 30vw;
-    top: 70.5vw;
-    left: 9vw;
-    display: inline-block;
-    position: absolute;
-    text-align: left;
-}
-
-#cfd{
-    z-index: 2;
-    width: 30vw;
-    top: 70.5vw;
-    left: 9vw;
+    width: 25.5vw;
+    top: 70vw;
+    left: 12vw;
     display: inline-block;
     position: absolute;
     text-align: left;
@@ -228,7 +218,7 @@ hr1{
     font-size: 1.5vw;
     font-weight: bold;
     left: 44vw;
-    top: 47vw;
+    top: 45vw;
     color: #A41034;
     position: absolute;
     text-align: justify;
@@ -241,7 +231,7 @@ hr1{
     z-index: 2;
     font-size: 1.5vw;
     left: 44vw;
-    top: 49.5vw;
+    top: 47.5vw;
     color: black;
     position: absolute;
     text-align: justify;
@@ -273,49 +263,57 @@ hr1{
     color: black;
     position: absolute;
     width: 45vw;
-    height: 10vw;
 }
 
-#crafts{
+
+#stk{
     z-index: 2;
-    height: 15vw;
-    top: 93vw;
-    left: 7.5vw;
+    width: 33vw;
+    top: 2vw;
     display: inline-block;
     position: absolute;
     text-align: left;
+    border-radius: 1vw;
 }
 
-
-#fly{
-    z-index: 2;
-    height: 15vw;
-    top: 93vw;
-    left: 35.75vw;
-    display: inline-block;
-    position: absolute;
+.main p7{
     text-align: left;
+    z-index: 2;
+    font-size: 2vw;
+    font-weight: bold;
+    left: 0vw;
+    top: -3vw;
+    color: #6d6d6d;
+    position: absolute;
+    width: 50vw;
 }
 
-#carbon{
-    z-index: 2;
-    height: 15vw;
-    top: 93vw;
-    left: 64vw;
-    display: inline-block;
-    position: absolute;
+.main p8{
     text-align: left;
+    z-index: 2;
+    font-size: 1.5vw;
+    font-weight: bold;
+    left: 36vw;
+    top: 3.5vw;
+    color: #A41034;
+    position: absolute;
+    width: 50vw;
 }
 
-#process{
-    z-index: 2;
-    height: 15vw;
-    top: 93vw;
-    left: 77.5vw;
-    display: inline-block;
-    position: absolute;
+.main p9{
     text-align: left;
+    display: inline-block;
+    z-index: 2;
+    font-size: 1.5vw;
+    left: 36vw;
+    top: 6vw;
+    color: black;
+    position: absolute;
+    width: 45vw;
+    height: 20vw;
 }
+
+
 
 /*Main Section*/
 

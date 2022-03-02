@@ -11,154 +11,108 @@ html, body {
 }
 
 
+/*-----------------------------------------------------------------*/
 /*Nav Bar*/
-.navbar {
-    height: 20%;
-    width: 100%;
-    /*width: 100%;*/
-    position: fixed;
-    top: 0;
-    left: 0;
-    /*padding-top: 190px;*/
-    /*padding-top: 9vw;*/
-    z-index: 2;
-    /*background-color: #bcbcbc;*/
-}
-
 ul {
-    margin-left: 63vw;
+    /*margin-left: 63vw;*/
     list-style-type: none;
     overflow: hidden;
     z-index: 2;
 }
 
-a {
-    text-decoration: none;
-    padding: 5% 8% 0px 0px;
-    /*font-size: 30px;*/
-    font-size: 1.75vw;
-    display: inline-block;
-    transition: 0.3s;
+.navbar {
+    text-align: right;
+    right: 5%;
+    width: 100%;
+    position: absolute;
     z-index: 2;
+    margin-top: 1%;
 }
 
 .navbar a {
-    
+    vertical-align: baseline;
+    display: inline-block;
+    text-decoration: none;
     color: #808080;
-    /*height: 3vw;*/
+    padding-left: 3vw;
     z-index: 2;
+    font-size: 1.75vw;
+    transition: 0.3s;
 }
 
 .navbar ul a:hover{
     color: #A41034;
     z-index: 2;
-    
     font-size: 2vw;
 }
 
-
-
-
-  /*Nav Bar*/
-
-/*-----------------------------------------------------------------*/
-
-/*Heading Section*/
-
-
-.title a{
-    position: fixed;
-    z-index: 2;
+.navbar h0{
     color: #A41034;
-    left: 5vw;
-    top: -2.5vw;
-    width: 50%;
     font-size: 2.8vw;
+    transition: 0.3s;
+    margin-right: 35vw;
 }
 
-.title a:hover{
-    color: #A41034;
-    z-index: 2;
+.navbar h0:hover{
     font-size: 3vw;
-
 }
 
 
-/*Heading Section*/
-
+/*Nav Bar*/
 /*-----------------------------------------------------------------*/
 
 /*Main Section*/
 
 /*Projects:*/
+/*Harvard Satellite Team*/
 .main h1{
     display: inline-block;
     text-align: left;
     z-index: 2;
-    font-size: 5vw;
+    font-size: 3vw;
     position: absolute;
-    left: 4.75vw;
-    top: 5.75vw;
+    left: 7.5vw;
+    top: 10vw;
+    color: #A41034;
+    animation: 0.7s ease-out 0s 1 slideInFromRight;   
+}
+
+/*Payload Team Lead, Bus Team Member*/
+.main h2{
+    display: inline-block;
+    text-align: left;
+    z-index: 2;
+    font-size: 1.5vw;
+    position: absolute;
+    left: 7.5vw;
+    top: 14vw;
     color: black;
     animation: 0.7s ease-out 0s 1 slideInFromRight;
     
 }
 
-/*Line*/
-hr{
-    top: 16vw;
-    position: absolute;
-    z-index: 2;
-    left: 5vw;
-    width: 60vw;
-    border: 2px solid #A41034;
-    background-color: #A41034;
-    animation: 0.7s ease-out 0s 1 slideInFromLeft;
-}
-
-hr.new1{
-    position: absolute;
-    z-index: 2;
-    top: 39.5vw;
-    left: 5vw;
-    width: 80vw;
-    border: 1px solid black;
-    background-color: black;
-    animation: 1s ease-out 0s 1 slideInFromLeft;
-}
-
-hr.new2{
-    position: absolute;
-    z-index: 2;
-    top: 71vw;
-    left: 5vw;
-    width: 80vw;
-    border: 1px solid black;
-    background-color: black;
-    animation: 1s ease-out 0s 1 slideInFromLeft;
-}
-
-
-
 #cube{
     z-index: 2;
-    width: 25vw;
-    top: 20vw;
-    left: 5vw;
+    width: 41vw;
+    top: 12.5vw;
+    left: 50vw;
     display: inline-block;
     position: absolute;
     text-align: left;
 }
 
+
+/*Project Overview*/
 .main p{
     text-align: left;
     display: inline-block;
     z-index: 2;
-    font-size: 3vw;
-    left: 32vw;
-    top: 17vw;
+    font-size: 2vw;
+    left: 7.5vw;
+    top: 15.5vw;
     color: #6d6d6d;
     position: absolute;
+    font-weight: bold;
     width: 50vw;
 }
 
@@ -167,54 +121,107 @@ hr.new2{
     display: inline-block;
     z-index: 2;
     font-size: 1.5vw;
-    left: 32vw;
-    top: 25vw;
+    left: 7.5vw;
+    top: 20vw;
     color: black;
     position: absolute;
-    width: 50vw;
+    width: 40vw;
+    text-align: justify;
 }
 
-#cubesat{
-    z-index: 2;
-    width: 25vw;
-    top: 43vw;
-    left: 5vw;
-    display: inline-block;
+hr{
+    top: 42vw;
     position: absolute;
-    text-align: left;
-}
-
-#nitinol{
     z-index: 2;
-    width: 25vw;
-    top: 56vw;
-    left: 5vw;
-    display: inline-block;
-    position: absolute;
-    text-align: left;
+    left: 7.5vw;
+    width: 83.5vw;
+    border: 1px solid #A41034;
+    background-color: #A41034;
+    /*animation: 0.7s ease-out 0s 1 slideInFromRight;*/
 }
 
+/*Payload Team Lead*/
 .main p2{
     text-align: left;
     display: inline-block;
     z-index: 2;
-    font-size: 3vw;
-    left: 32vw;
-    top: 43vw;
+    font-size: 2vw;
+    font-weight: bold;
+    left: 7.5vw;
+    top: 40vw;
     color: #6d6d6d;
     position: absolute;
     width: 50vw;
 }
 
+.rectangle{
+    position: absolute;
+    height: 20vw;
+    width: 33vw;
+    top: 45vw;
+    left: 7.5vw;
+    border-radius: 1vw;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(130, 130, 130, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#payload{
+    z-index: 2;
+    width: 25vw;
+    top: 47vw;
+    left: 11vw;
+    display: inline-block;
+    position: absolute;
+    text-align: left;
+}
+
+
+hr1{
+    top: 96vw;
+    position: absolute;
+    z-index: 2;
+    left: 7.5vw;
+    width: 83.5vw;
+    border: 1px solid #A41034;
+    background-color: #A41034;
+    /*animation: 0.7s ease-out 0s 1 slideInFromRight;*/
+}
+
+.rectangle1{
+    position: absolute;
+    height: 20vw;
+    width: 33vw;
+    top: 68vw;
+    left: 7.5vw;
+    border-radius: 1vw;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(130, 130, 130, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#offloader{
+    z-index: 2;
+    width: 25.5vw;
+    top: 70vw;
+    left: 12vw;
+    display: inline-block;
+    position: absolute;
+    text-align: left;
+}
+
+
+
+/*Nitinol Payload Design*/
 .main p3{
     text-align: left;
     display: inline-block;
     z-index: 2;
     font-size: 1.5vw;
-    left: 32vw;
-    top: 48vw;
-    color: black;
+    font-weight: bold;
+    left: 44vw;
+    top: 47vw;
+    color: #A41034;
     position: absolute;
+    text-align: justify;
     width: 45vw;
 }
 
@@ -223,32 +230,24 @@ hr.new2{
     display: inline-block;
     z-index: 2;
     font-size: 1.5vw;
-    left: 32vw;
-    top: 60vw;
+    left: 44vw;
+    top: 49.5vw;
     color: black;
     position: absolute;
+    text-align: justify;
     width: 45vw;
 }
 
-#bus{
-    z-index: 2;
-    width: 25vw;
-    top: 74.5vw;
-    left: 5vw;
-    display: inline-block;
-    position: absolute;
-    text-align: left;
-}
-
-
+/*Payload Test Development*/
 .main p5{
     text-align: left;
     display: inline-block;
     z-index: 2;
-    font-size: 3vw;
-    left: 32vw;
-    top: 75vw;
-    color: #6d6d6d;
+    font-size: 1.5vw;
+    font-weight: bold;
+    left: 44vw;
+    top: 70.5vw;
+    color: #A41034;
     position: absolute;
     width: 50vw;
 }
@@ -258,24 +257,62 @@ hr.new2{
     display: inline-block;
     z-index: 2;
     font-size: 1.5vw;
-    left: 32vw;
-    top: 80vw;
+    text-align: justify;
+    left: 44vw;
+    top: 73vw;
     color: black;
     position: absolute;
     width: 45vw;
 }
 
+
+#stk{
+    z-index: 2;
+    width: 33vw;
+    top: 2vw;
+    display: inline-block;
+    position: absolute;
+    text-align: left;
+    border-radius: 1vw;
+}
+
 .main p7{
+    text-align: left;
+    z-index: 2;
+    font-size: 2vw;
+    font-weight: bold;
+    left: 0vw;
+    top: -3vw;
+    color: #6d6d6d;
+    position: absolute;
+    width: 50vw;
+}
+
+.main p8{
+    text-align: left;
+    z-index: 2;
+    font-size: 1.5vw;
+    font-weight: bold;
+    left: 36vw;
+    top: 3.5vw;
+    color: #A41034;
+    position: absolute;
+    width: 50vw;
+}
+
+.main p9{
     text-align: left;
     display: inline-block;
     z-index: 2;
     font-size: 1.5vw;
-    left: 32vw;
-    top: 90vw;
+    left: 36vw;
+    top: 6vw;
     color: black;
     position: absolute;
     width: 45vw;
+    height: 20vw;
 }
+
 
 
 /*Main Section*/
