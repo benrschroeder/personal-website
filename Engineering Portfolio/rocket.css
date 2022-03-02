@@ -168,49 +168,58 @@ hr{
 #igniter{
     z-index: 2;
     width: 25vw;
-    top: 47vw;
+    top: 45vw;
     left: 11vw;
     display: inline-block;
     position: absolute;
     text-align: left;
 }
 
-
-hr1{
-    top: 96vw;
-    position: absolute;
-    z-index: 2;
-    left: 7.5vw;
-    width: 83.5vw;
-    border: 1px solid #A41034;
-    background-color: #A41034;
-    /*animation: 0.7s ease-out 0s 1 slideInFromRight;*/
-}
-
 .rectangle1{
     position: absolute;
     height: 20vw;
     width: 33vw;
-    top: 68vw;
+    top: 75vw;
     left: 7.5vw;
     border-radius: 1vw;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(130, 130, 130, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-#offloader{
+#phase0{
     z-index: 2;
     width: 25.5vw;
-    top: 70vw;
-    left: 12vw;
+    top: 77vw;
+    left: 10.5vw;
     display: inline-block;
     position: absolute;
     text-align: left;
 }
 
+.rectangle2{
+    position: absolute;
+    height: 20vw;
+    width: 33vw;
+    top: 26vw;
+    left: 0vw;
+    border-radius: 1vw;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(130, 130, 130, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#engine{
+    z-index: 2;
+    width: 26vw;
+    top: 28vw;
+    left: 3vw;
+    position: absolute;
+    text-align: left;
+    
+}
 
 
-/*Nitinol Payload Design*/
+
+/*Technical Overview and Presentation*/
 .main p3{
     text-align: left;
     display: inline-block;
@@ -238,54 +247,56 @@ hr1{
     width: 45vw;
 }
 
-/*Payload Test Development*/
+/*President*/
 .main p5{
     text-align: left;
-    display: inline-block;
     z-index: 2;
-    font-size: 1.5vw;
+    font-size: 2vw;
     font-weight: bold;
-    left: 44vw;
-    top: 70.5vw;
-    color: #A41034;
+    left: 7.5vw;
+    top: 70vw;
+    color: #6d6d6d;
     position: absolute;
     width: 50vw;
 }
 
+hr1{
+    top: 72.5vw;
+    position: absolute;
+    z-index: 2;
+    left: 7.5vw;
+    width: 83.5vw;
+    border: 1px solid #A41034;
+    background-color: #A41034;
+    /*animation: 0.7s ease-out 0s 1 slideInFromRight;*/
+}
+
+/*Phase 0: Spark Torch Igniter*/
 .main p6{
     text-align: left;
     display: inline-block;
     z-index: 2;
     font-size: 1.5vw;
+    font-weight: bold;
+    left: 37vw;
+    top: 5vw;
+    color: #A41034;
+    position: absolute;
+    width: 50vw;
+}
+
+/*Phase 0 is the first...*/
+.main p7{
+    text-align: left;
+    display: inline-block;
+    z-index: 2;
+    font-size: 1.5vw;
     text-align: justify;
-    left: 44vw;
-    top: 73vw;
+    left: 37vw;
+    top: 7.5vw;
     color: black;
     position: absolute;
     width: 45vw;
-}
-
-
-#stk{
-    z-index: 2;
-    width: 33vw;
-    top: 2vw;
-    display: inline-block;
-    position: absolute;
-    text-align: left;
-    border-radius: 1vw;
-}
-
-.main p7{
-    text-align: left;
-    z-index: 2;
-    font-size: 2vw;
-    font-weight: bold;
-    left: 0vw;
-    top: -3vw;
-    color: #6d6d6d;
-    position: absolute;
-    width: 50vw;
 }
 
 .main p8{
@@ -293,8 +304,8 @@ hr1{
     z-index: 2;
     font-size: 1.5vw;
     font-weight: bold;
-    left: 36vw;
-    top: 3.5vw;
+    left: 37vw;
+    top: 28.5vw;
     color: #A41034;
     position: absolute;
     width: 50vw;
@@ -305,10 +316,11 @@ hr1{
     display: inline-block;
     z-index: 2;
     font-size: 1.5vw;
-    left: 36vw;
-    top: 6vw;
+    left: 37vw;
+    top: 31.5vw;
     color: black;
     position: absolute;
+    text-align: justify;
     width: 45vw;
     height: 20vw;
 }

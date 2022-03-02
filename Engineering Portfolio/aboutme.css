@@ -11,6 +11,7 @@ html, body {
 }
 
 
+/*-----------------------------------------------------------------*/
 /*Nav Bar*/
 ul {
     /*margin-left: 63vw;*/
@@ -19,32 +20,23 @@ ul {
     z-index: 2;
 }
 
-.title a {
-    text-decoration: none;
-    margin-top: 5.15vw;
-    left: 3vw;
-    font-size: 1.75vw;
-    display: inline-block;
-    transition: 0.3s;
-    z-index: 2;
-}
-
 .navbar {
-    height: 10%;
+    text-align: right;
+    right: 5%;
     width: 100%;
     position: fixed;
-    left: 50vw;
     z-index: 2;
+    margin-top: 1%;
 }
 
 .navbar a {
+    vertical-align: baseline;
+    display: inline-block;
     text-decoration: none;
     color: #808080;
-    padding-top: 1.9vw;
-    padding-left: 5vw;
+    padding-left: 3vw;
     z-index: 2;
     font-size: 1.75vw;
-    display: inline-block;
     transition: 0.3s;
 }
 
@@ -54,10 +46,21 @@ ul {
     font-size: 2vw;
 }
 
+.navbar h0{
+    color: #A41034;
+    font-size: 2.8vw;
+    transition: 0.3s;
+    margin-right: 35vw;
+}
 
-  /*Nav Bar*/
+.navbar h0:hover{
+    font-size: 3vw;
+}
 
+
+/*Nav Bar*/
 /*-----------------------------------------------------------------*/
+
 
 /*Heading Section*/
 
