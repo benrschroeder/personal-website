@@ -552,7 +552,7 @@ hr{
         flex-wrap: wrap;
         padding: 0 0vw;
         margin-left: 5%;
-        margin-top: 90%;
+        margin-top: 450px;
     
       }
     
@@ -598,7 +598,7 @@ hr{
         font-weight: 100;
         position: absolute;
         text-align: justify;
-        width: 75vw;
+        width: 100%;
     
         margin-top: 45px;
         left: 0vw;
@@ -609,7 +609,7 @@ hr{
         font-weight: 100;
         position: absolute;
         text-align: justify;
-        width: 75vw;
+        width: 100%;
     
         margin-top: 45px;
         left: 0vw;
