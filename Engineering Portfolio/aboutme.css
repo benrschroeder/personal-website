@@ -365,22 +365,11 @@ hr3{
 
     /*Nav Bar*/
 
-
-    /*Profile Picture*/
-    #profile{
-        z-index: 4;
-        width: 80%;
-        top: 160px;
-        padding-left: 7%;
-        position: absolute;
-        display: block;
-    }
-
     .main hr{
         position: fixed;
         background-color: white;
         border: white;
-        z-index: 4;
+        z-index: 3;
         left: 0;
         width: 55px;
         height: 100%;
@@ -391,13 +380,22 @@ hr3{
     .main h1{
         left: 4vw;
         text-align: center;
-        z-index: 3;
+        z-index: 2;
         position: absolute;
         top: 80px;
         left: 6vw;
         
     }
 
+    /*Profile Picture*/
+    #profile{
+        z-index: 4;
+        width: 80%;
+        top: 150px;
+        left: -22%;
+        position: absolute;
+        display: block;
+    }
 
     /*Description*/
     .main p{
@@ -407,7 +405,7 @@ hr3{
         text-align: justify;
         width: 80%;
         color: black;
-        margin-top: 700px;
+        margin-top: 670px;
         left: 7%;
         z-index: 6;
     }
