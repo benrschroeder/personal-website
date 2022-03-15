@@ -399,7 +399,7 @@ span:before{
         position: fixed;
         z-index: 6;
         left: 22%;
-        top: 3%;
+        top: 3.2%;
     }
     /*Menu button image*/
     #menu{
@@ -413,8 +413,8 @@ span:before{
         float: left;
         overflow: hidden;
         display: block;
-        margin-left: 5%;
-        margin-top: -0.7%;
+        margin-left: 3%;
+        margin-top: -0.5%;
         z-index: 6;
     }
     
@@ -487,7 +487,7 @@ span:before{
         display: none;
     }
     .header h2{
-        display: inline-block;
+        display: block;
         text-align: center;
         z-index: 4;
         font-size: 25px;
