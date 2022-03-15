@@ -493,29 +493,21 @@ span:before{
         font-size: 25px;
         font-weight: 400;
         position: absolute;
-        top: 435px;
+        margin-top: 435px;
         width: 100%;
-    }
-
-    /*student, researcher, etc.*/
-    .header span{
-        font-weight: normal;
-        font-weight: 600;
-        color: black;
     }
 
     /*I am*/
 
     .main p{
         position: absolute;
-        text-align: left;
         z-index: 5;
         font-size: 18px;
         left: 0vw;
-        margin-left: 15%;
+        margin-left: 10%;
         margin-top: 500px;
         color: black;
-        width: 70%;
+        width: 80%;
         text-align: justify;
         
     }
