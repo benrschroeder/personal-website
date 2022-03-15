@@ -129,7 +129,7 @@ hr3{
     width: 800px;
 }
 
-.header h2{
+.main p5{
     display: none;
 }
 
@@ -315,9 +315,9 @@ span:before{
         width: 800px;
     }
 
-    .header h2{
+    .main p5{
         display: none;
-    }
+    }    
 
     /*student, researcher, etc.*/
     .header span{
