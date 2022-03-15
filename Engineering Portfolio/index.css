@@ -474,7 +474,7 @@ span:before{
 
     /*Me*/
     #me{
-        z-index: 4;
+        z-index: 3;
         width: 55%;
         top: 130px;
         left: 22.5%;
@@ -486,14 +486,14 @@ span:before{
     .header h1{
         display: none;
     }
-    .main h2{
+    .main p4{
         display: block;
         text-align: center;
         z-index: 4;
         font-size: 25px;
         font-weight: 400;
         position: absolute;
-        top: 415px;
+        top: 435px;
         width: 100%;
     }
 
