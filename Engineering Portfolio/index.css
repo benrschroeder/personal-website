@@ -129,6 +129,10 @@ hr3{
     width: 800px;
 }
 
+.header h2{
+    display: none;
+}
+
 /*student, researcher, etc.*/
 .header span{
     font-weight: normal;
@@ -311,6 +315,10 @@ span:before{
         width: 800px;
     }
 
+    .header h2{
+        display: none;
+    }
+
     /*student, researcher, etc.*/
     .header span{
         font-weight: normal;
@@ -391,7 +399,7 @@ span:before{
         position: fixed;
         z-index: 6;
         left: 22%;
-        top: 2.7%;
+        top: 3%;
     }
     /*Menu button image*/
     #menu{
@@ -405,8 +413,8 @@ span:before{
         float: left;
         overflow: hidden;
         display: block;
-        margin-left: 6%;
-        margin-top: -1%;
+        margin-left: 5%;
+        margin-top: -0.7%;
         z-index: 6;
     }
     
@@ -467,25 +475,27 @@ span:before{
     /*Me*/
     #me{
         z-index: 4;
-        width: 250px;
+        width: 55%;
         top: 130px;
-        left: 25%;
+        left: 22.5%;
         position: absolute;
         display: block;
     }
 
     /*"Hi! I'm Ben Schroeder.*/
     .header h1{
+        display: none;
+    }
+    .header h2{
         display: inline-block;
-        text-align: left;
+        text-align: center;
         z-index: 4;
         font-size: 25px;
         font-weight: 400;
         position: absolute;
         left: 0vw;
-        margin-left: 70px;
-        top: 400px;
-        width: 350px;
+        top: 415px;
+        width: 100%;
         font-weight: 400;
     }
 
@@ -504,10 +514,10 @@ span:before{
         z-index: 5;
         font-size: 18px;
         left: 0vw;
-        margin-left: 70px;
+        margin-left: 15%;
         margin-top: 500px;
         color: black;
-        width: 350px;
+        width: 70%;
         text-align: justify;
         
     }
@@ -515,7 +525,6 @@ span:before{
     /*My interests*/
     .main p1{
         position: absolute;
-        text-align: left;
         z-index: 5;
         font-size: 18px;
         left: 0vw;
@@ -523,21 +532,20 @@ span:before{
         margin-top: 45px;
         /*top: 53%;*/
         color: black;
-        width: 350px;
+        width: 100%;
         text-align: justify;
     }
 
     /*My goal*/
     .main p2{
         position: absolute;
-        text-align: left;
         z-index: 2;
         font-size: 18px;
         left: 0vw;
         margin-left: 0px;
         margin-top: 45px;
         color: black;
-        width: 350px;
+        width: 100%;
         text-align: justify;
     }
     /*Footer*/
