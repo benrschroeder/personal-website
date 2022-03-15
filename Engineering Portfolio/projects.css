@@ -551,7 +551,7 @@ hr{
         -ms-flex-wrap: wrap; /* IE10 */
         flex-wrap: wrap;
         padding: 0 0vw;
-        margin-left: 0%;
+        margin-left: 8%;
         margin-top: 450px;
     
       }
@@ -559,7 +559,7 @@ hr{
     .column {
       -ms-flex: 100%;
       flex: 100%;
-      max-width: 100%;
+      max-width: 90%;
       margin-top: 0;
     }
 
