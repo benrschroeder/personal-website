@@ -486,10 +486,10 @@ span:before{
     .header h1{
         display: none;
     }
-    .header h2{
+    .main h2{
         display: block;
         text-align: center;
-        z-index: 6;
+        z-index: 4;
         font-size: 25px;
         font-weight: 400;
         position: absolute;
@@ -550,7 +550,7 @@ span:before{
     #linkedin{
         z-index: 5;
         height: 6%;
-        top: 875px;
+        top: 905px;
         left: 70px;
         position: absolute;
         text-align: center;
@@ -559,7 +559,7 @@ span:before{
     #email{
         z-index: 5;
         height: 6%;
-        top: 872px;
+        top: 902px;
         left: 140px;
         position: absolute;
         text-align: center;
@@ -568,7 +568,7 @@ span:before{
     #download{
         z-index: 5;
         height: 6%;
-        top: 873px;
+        top: 903px;
         left: 210px;
         position: absolute;
         text-align: center;
