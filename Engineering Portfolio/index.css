@@ -6,56 +6,99 @@ html, body {
     right:0;
     width: 100%;
     height: 100%;
-    font-family:Arial, Helvetica, sans-serif;
-    /*background-image: linear-gradient(white, #bcbcbc);*/
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif,sans-serif;
+    font-weight: 100;
+    animation: fadeInAnimation ease 0.3s
 }
 
 /*-----------------------------------------------------------------*/
-/*Nav Bar*/
-ul {
-    /*margin-left: 63vw;*/
-    list-style-type: none;
-    overflow: hidden;
-    z-index: 2;
-}
 
+/*Nav Bar*/
 .navbar {
     text-align: right;
-    right: 5%;
-    width: 100%;
+    right: 2%;
+    width: 250%;
     position: fixed;
-    z-index: 2;
-    margin-top: 1%;
+    z-index: 5;
+    margin-top: 0.5%;
 }
 
 .navbar a {
     vertical-align: baseline;
     display: inline-block;
     text-decoration: none;
-    color: #808080;
-    padding-left: 3vw;
+    color: black;
+    padding-right: 6.5vw;
     z-index: 2;
-    font-size: 1.75vw;
+    font-size: 1.25vw;
     transition: 0.3s;
 }
 
 .navbar ul a:hover{
-    color: #A41034;
     z-index: 2;
-    font-size: 2vw;
 }
 
 .navbar h0{
-    color: #A41034;
-    font-size: 2.8vw;
+    color: black;
+    font-size: 2.6vw;
+    font-weight: 400;
     transition: 0.3s;
-    margin-right: 35vw;
+    margin-right: 20vw;
 }
 
 .navbar h0:hover{
-    font-size: 3vw;
+    font-size: 2.8vw;
 }
 
+.dropdown {
+    display: none;
+}
+
+/*-------------*/
+
+hr0{
+    display: inline-block;
+    top: 3.4vw;
+    position: fixed;
+    z-index: 2;
+    left: 49.5vw;
+    width: 11vw;
+    border: 0.15vw solid black;
+    background-color: black;
+    
+}
+hr1{
+    display: inline-block;
+    top: 3.4vw;
+    position: fixed;
+    z-index: 2;
+    left: 61.5vw;
+    width: 11vw;
+    height: 0.01vw;
+    background-color: black;
+}
+
+hr2{
+    display: inline-block;
+    top: 3.4vw;
+    position: fixed;
+    z-index: 2;
+    left: 73.5vw;
+    width: 10vw;
+    height: 0.01vw;
+    background-color: black;
+}
+
+hr3{
+    display: inline-block;
+    top: 3.4vw;
+    position: fixed;
+    z-index: 2;
+    left: 84.5vw;
+    width: 11vw;
+    height: 0.01vw;
+    background-color: black;
+}
 
 /*Nav Bar*/
 /*-----------------------------------------------------------------*/
@@ -63,14 +106,13 @@ ul {
 
 /*Main Section*/
 
-.main {
-    width: 100%;
-    z-index: 0;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    position: relative;
-    text-align: left;
-    top: 100%; 
+/*Me*/
+#me{
+    z-index: 4;
+    width: 250px;
+    top: 170px;
+    left: 7vw;
+    position: fixed;
 }
 
 /*"Hi! I'm Ben Schroeder.*/
@@ -78,54 +120,35 @@ ul {
     display: inline-block;
     text-align: left;
     z-index: 2;
-    font-size: 2.5vw;
-    font-weight: bold;
+    font-size: 30px;
+    font-weight: 400;
     position: fixed;
-    left: 10%;
-    top: 25%;
-    color: #A41034;
-    animation: 0.7s ease-out 0s 1 slideInFromRight;
+    left: 7vw;
+    margin-left: 300px;
+    top: 140px;
+    width: 800px;
 }
 
 /*student, researcher, etc.*/
 .header span{
     font-weight: normal;
-    font-weight: bold;
+    font-weight: 600;
     color: black;
 }
 
-/*-------Animation------*/
-
-span:before{
-    content: "";
-    animation: animate infinite 12s;
-}
-
-
-@keyframes animate {
-    0% {opacity:1; content: "student"}
-    12% {opacity:0;}
-    33.33% {opacity:1; content: "mechanical engineer"}
-    45% {opacity:0;}
-    66.66% {opacity:1; content: "researcher"}
-    78% {opacity:0;}
-    100% {opacity:1; content: "student"}
-}
-
-/*-------End Animation------*/
 
 /*I am*/
 
 .main p{
     text-align: left;
-    z-index: 2;
-    font-size: 1.35vw;
-    left: 10%;
-    top: 24.75%;
-    margin-top: 8%;
+    z-index: 4;
+    font-size: 18px;
+    left: 7vw;
+    margin-left: 300px;
+    margin-top: 200px;
     color: black;
     position: fixed;
-    width: 50%;
+    width: 55%;
     text-align: justify;
     
 }
@@ -133,73 +156,41 @@ span:before{
 /*My interests*/
 .main p1{
     text-align: left;
-    z-index: 1;
-    font-size: 1.35vw;
-    left: 10%;
-    top: 24.75%;
-    margin-top: 12.5%;
+    z-index: 4;
+    font-size: 18px;
+    left: 7vw;
+    margin-left: 300px;
+    margin-top: 45px;
     /*top: 53%;*/
     color: black;
     position: fixed;
-    width: 50%;
+    width: 55%;
     text-align: justify;
 }
 
 /*My goal*/
 .main p2{
     text-align: left;
-    z-index: 2;
-    font-size: 1.35vw;
-    left: 10%;
-    top: 24.75%;
-    margin-top: 17%;
+    z-index: 4;
+    font-size: 18px;
+    left: 7vw;
+    margin-left: 300px;
+    margin-top: 45px;
     color: black;
     position: fixed;
-    width: 50%;
+    width: 55%;
     text-align: justify;
 }
 
 
 .main p3{
-    font-weight: bold;
+    font-weight: 400;
 }
 
 .header p4{
     color: black;
     font-weight: normal;
 }
-
-
-/*Line*/
-/*.vl {
-    border-left: .15vw solid black;
-    height: 14.5vw;
-    position: fixed;
-    left: 7.835%;
-    margin-left: 0.165%;
-    top: 18.25vw;
-  }
-
-.dot {
-    height: .5vw;
-    width: .45vw;
-    top: 18.25vw;
-    left: 7.835%;
-    position: fixed;
-    background-color: black;
-    border-radius: 50%;
-}
-
-.dots {
-    height: .5vw;
-    width: .45vw;
-    top: 32.25vw;
-    left: 7.835%;
-    position: fixed;
-    background-color: black;
-    border-radius: 50%;
-}*/
-  
 
 .main a:hover{
     color: #A41034;
@@ -237,18 +228,6 @@ span:before{
     text-align: center;
 }
 
-#wave{
-    z-index: 1;
-    height: 85%;
-    /*top: 20%;
-    left: 39%;*/
-    left: 42%;
-    top: 8vw;
-    transform: rotate(-10deg);
-    position: fixed;
-    text-align: center;
-}
-
 /*End Footer*/
 
 
@@ -257,6 +236,24 @@ span:before{
 /*General*/
 .bold {
     font-weight: 700;
+}
+
+/*-------Animation------*/
+
+span:before{
+    content: "";
+    animation: animate infinite 12s;
+}
+
+
+@keyframes animate {
+    0% {opacity:1; content: "student"}
+    12% {opacity:0;}
+    33.33% {opacity:1; content: "mechanical engineer"}
+    45% {opacity:0;}
+    66.66% {opacity:1; content: "researcher"}
+    78% {opacity:0;}
+    100% {opacity:1; content: "student"}
 }
 
 @keyframes slideInFromLeft {
@@ -277,6 +274,300 @@ span:before{
     }
 }
 
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
 /*General*/
 
 /*-----------------------------------------------------------------*/
+
+@media screen and (max-width: 900px) {
+    .dropdown {
+        display: none;
+    }
+
+    #me{
+        display: none;
+    }
+
+        
+    /*"Hi! I'm Ben Schroeder.*/
+    .header h1{
+        display: inline-block;
+        text-align: left;
+        z-index: 2;
+        font-size: 30px;
+        font-weight: 400;
+        position: fixed;
+        left: 7vw;
+        margin-left: 0px;
+        top: 140px;
+        width: 800px;
+    }
+
+    /*student, researcher, etc.*/
+    .header span{
+        font-weight: normal;
+        font-weight: 600;
+        color: black;
+    }
+
+
+    /*I am*/
+
+    .main p{
+        text-align: left;
+        z-index: 4;
+        font-size: 18px;
+        left: 7vw;
+        margin-left: 0px;
+        margin-top: 200px;
+        color: black;
+        position: fixed;
+        width: 75%;
+        text-align: justify;
+        
+    }
+
+    /*My interests*/
+    .main p1{
+        text-align: left;
+        z-index: 4;
+        font-size: 18px;
+        left: 7vw;
+        margin-left: 0px;
+        margin-top: 45px;
+        /*top: 53%;*/
+        color: black;
+        position: fixed;
+        width: 75%;
+        text-align: justify;
+    }
+
+    /*My goal*/
+    .main p2{
+        text-align: left;
+        z-index: 4;
+        font-size: 18px;
+        left: 7vw;
+        margin-left: 0px;
+        margin-top: 45px;
+        color: black;
+        position: fixed;
+        width: 75%;
+        text-align: justify;
+    }
+
+
+}
+
+@media screen and (max-width: 500px) {
+    /*Nav Bar*/
+    .navbar {
+        display: none;
+    }
+
+    .dropdown hr{
+        position: fixed;
+        background-color: white;
+        z-index: 5;
+        width: 200%;
+        height: 20%;
+        top: -9%;
+        left: -10%;
+        box-shadow: 0px 2px 16px 0px rgba(0,0,0,0.2);
+    }
+
+    .dropdown h{
+        color: black;
+        font-size: 30px;
+        font-weight: 400;
+        position: fixed;
+        z-index: 6;
+        left: 22%;
+        top: 2.7%;
+    }
+    /*Menu button image*/
+    #menu{
+        position: fixed;
+        width: 40px;
+        z-index: 6;
+        display: block;
+    }
+
+    .dropdown {
+        float: left;
+        overflow: hidden;
+        display: block;
+        margin-left: 6%;
+        margin-top: -1%;
+        z-index: 6;
+    }
+    
+      /* Dropdown button */
+    .dropdown .dropbtn {
+        position: fixed;
+        cursor: pointer;
+        font-size: 16px;
+        border: none;
+        outline: none;
+        color: Black;
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: inherit; /* Important for vertical align on mobile phones */
+        margin: 0; /* Important for vertical align on mobile phones */
+        z-index: 6;
+    }
+    
+      
+      /* Dropdown content (hidden by default) */
+    .dropdown-content {
+
+        display: none;
+        position: fixed;
+        background-color: #f9f9f9;
+        min-width: 100%;
+        left: -2%;
+        margin-top: 13%;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 6;
+    }
+      
+      /* Links inside the dropdown */
+    .dropdown-content a {
+        float: none;
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: center;
+        z-index: 6;
+    }
+      
+      /* Add a grey background color to dropdown links on hover */
+    .dropdown-content a:hover {
+        background-color: #ddd;
+        z-index: 6;
+    }
+
+    .show {
+        display: block;
+        z-index: 6;
+    }
+
+    /*Nav Bar*/
+    /*-------------*/
+
+    /*Me*/
+    #me{
+        z-index: 4;
+        width: 250px;
+        top: 130px;
+        left: 25%;
+        position: absolute;
+        display: block;
+    }
+
+    /*"Hi! I'm Ben Schroeder.*/
+    .header h1{
+        display: inline-block;
+        text-align: left;
+        z-index: 4;
+        font-size: 25px;
+        font-weight: 400;
+        position: absolute;
+        left: 0vw;
+        margin-left: 70px;
+        top: 400px;
+        width: 350px;
+        font-weight: 400;
+    }
+
+    /*student, researcher, etc.*/
+    .header span{
+        font-weight: normal;
+        font-weight: 600;
+        color: black;
+    }
+
+    /*I am*/
+
+    .main p{
+        position: absolute;
+        text-align: left;
+        z-index: 5;
+        font-size: 18px;
+        left: 0vw;
+        margin-left: 70px;
+        margin-top: 500px;
+        color: black;
+        width: 350px;
+        text-align: justify;
+        
+    }
+
+    /*My interests*/
+    .main p1{
+        position: absolute;
+        text-align: left;
+        z-index: 5;
+        font-size: 18px;
+        left: 0vw;
+        margin-left: 0px;
+        margin-top: 45px;
+        /*top: 53%;*/
+        color: black;
+        width: 350px;
+        text-align: justify;
+    }
+
+    /*My goal*/
+    .main p2{
+        position: absolute;
+        text-align: left;
+        z-index: 2;
+        font-size: 18px;
+        left: 0vw;
+        margin-left: 0px;
+        margin-top: 45px;
+        color: black;
+        width: 350px;
+        text-align: justify;
+    }
+    /*Footer*/
+    #linkedin{
+        z-index: 5;
+        height: 6%;
+        top: 875px;
+        left: 70px;
+        position: absolute;
+        text-align: center;
+    }
+
+    #email{
+        z-index: 5;
+        height: 6%;
+        top: 872px;
+        left: 140px;
+        position: absolute;
+        text-align: center;
+    }
+
+    #download{
+        z-index: 5;
+        height: 6%;
+        top: 873px;
+        left: 210px;
+        position: absolute;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+}
+    
+    
