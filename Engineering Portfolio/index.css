@@ -489,14 +489,12 @@ span:before{
     .header h2{
         display: block;
         text-align: center;
-        z-index: 4;
+        z-index: 6;
         font-size: 25px;
         font-weight: 400;
         position: absolute;
-        left: 0vw;
         top: 415px;
         width: 100%;
-        font-weight: 400;
     }
 
     /*student, researcher, etc.*/
