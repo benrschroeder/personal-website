@@ -472,7 +472,7 @@ hr{
         position: fixed;
         z-index: 6;
         left: 22%;
-        top: 2.7%;
+        top: 3.2%;
     }
     /*Menu button image*/
     #menu{
@@ -486,8 +486,8 @@ hr{
         float: left;
         overflow: hidden;
         display: block;
-        margin-left: 6%;
-        margin-top: -1%;
+        margin-left: 3%;
+        margin-top: -0.5%;
         z-index: 6;
     }
     
@@ -541,27 +541,7 @@ hr{
         display: block;
         z-index: 6;
     }
-    
-    /*Nav Bar*/
-    /*-------------*/
 
-    hr0{
-        left: 1149.5vw;
-        
-    }
-    hr1{
-        left: 1161.5vw;
-    }
-    
-    hr2{
-        left: 1173.5vw;
-
-    }
-    
-    hr3{
-        left: 1184.5vw;
-    }
-    
     /*Nav Bar*/
 
     .row {
@@ -571,8 +551,8 @@ hr{
         -ms-flex-wrap: wrap; /* IE10 */
         flex-wrap: wrap;
         padding: 0 0vw;
-        margin-left: 10vw;
-        margin-top: 85vw;
+        margin-left: 5%;
+        margin-top: 90%;
     
       }
     
@@ -597,7 +577,7 @@ hr{
         text-align: center;
         z-index: 1;
         position: absolute;
-        top: 80px;
+        top: 100px;
         left: 6vw;
     }
 
@@ -607,10 +587,10 @@ hr{
         position: absolute;
         display: inline-block;
         text-align: justify;
-        width: 75vw;
+        width: 80%;
     
-        margin-top: 145px;
-        left: 10vw;
+        margin-top: 155px;
+        left: 10%;
     }
     
     .main p2{
