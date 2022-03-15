@@ -15,15 +15,13 @@ html, body {
 
 /*-----------------------------------------------------------------*/
 /*Nav Bar*/
-
-
-.navbar {
-    text-align: right;
-    right: 2%;
-    width: 250%;
+.navbar ul{
+    text-align: left;
+    top: 33px;
+    right: 30px;
+    width: auto;
     position: fixed;
-    z-index: 6;
-    margin-top: 0.5%;
+    z-index: 5;
 }
 
 .navbar a {
@@ -31,10 +29,9 @@ html, body {
     display: inline-block;
     text-decoration: none;
     color: black;
-    padding-right: 6.5vw;
+    padding-right: 80px;
     z-index: 2;
-    font-size: 1.25vw;
-    transition: 0.3s;
+    font-size: 16px;
 }
 
 .navbar ul a:hover{
@@ -42,64 +39,67 @@ html, body {
 }
 
 .navbar h0{
+    vertical-align: baseline;
+    position: fixed;
     color: black;
-    font-size: 2.6vw;
+    font-size: 33px;
     font-weight: 400;
     transition: 0.3s;
-    margin-right: 20vw;
+    top: 32px;
+    left: 8%;
+    z-index: 6;
 }
 
 .navbar h0:hover{
-    font-size: 2.8vw;
+    font-size: 36px;
 }
 
 .dropdown {
     display: none;
 }
 
-
 /*-------------*/
 
 hr0{
     display: inline-block;
-    top: 3.4vw;
     position: fixed;
     z-index: 2;
-    left: 49.5vw;
-    width: 11vw;
+    top: 43px;
+    right: 485px;
+    width: 135px;
     height: 0.01vw;
     background-color: black;
     
 }
 hr1{
     display: inline-block;
-    top: 3.4vw;
     position: fixed;
     z-index: 2;
-    left: 61.5vw;
-    width: 11vw;
+    top: 43px;
+    right: 335px;
+    width: 140px;
     height: 0.01vw;
     background-color: black;
 }
 
 hr2{
     display: inline-block;
-    top: 3.4vw;
     position: fixed;
     z-index: 2;
-    left: 73.5vw;
-    width: 10vw;
-    border: 0.15vw solid black;
+    top: 43px;
+    right: 196px;
+    width: 127px;
+    height: 3.5px;
     background-color: black;
 }
 
 hr3{
     display: inline-block;
-    top: 3.4vw;
     position: fixed;
     z-index: 2;
-    left: 84.5vw;
-    width: 11vw;
+    top: 43px;
+    right: 45px;
+    width: 140px;
     height: 0.01vw;
     background-color: black;
 }
@@ -189,7 +189,7 @@ hr{
     flex: 25%;
     max-width: 310px;
     padding: 0 0.8vw;
-    margin-top: 90px;
+    margin-top: 60px;
     
 }
 
@@ -389,6 +389,47 @@ hr{
 
   /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 900px) {
+    /*Nav Bar*/
+    .navbar ul{
+        top: 34px;
+    }
+
+    .navbar a {
+        padding-right: 40px;
+    }
+
+    .navbar ul a:hover{
+        z-index: 2;
+    }
+    /*-------------*/
+
+    hr0{
+        top: 48px;
+        right: 363px;
+        width: 95px;
+        height: 0.01vw;
+        
+    }
+    hr1{
+        top: 48px;
+        right: 248px;
+        width: 100px;
+    }
+
+    hr2{
+        top: 48px;
+        right: 150px;
+        width: 90px;
+    }
+
+    hr3{
+        top: 48px;
+        right: 44px;
+        width: 100px;
+    }
+
+    /*Nav Bar*/
+    
     .dropdown {
         display: none;
     }

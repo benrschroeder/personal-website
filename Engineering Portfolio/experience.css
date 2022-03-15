@@ -6,170 +6,252 @@ html, body {
     right:0;
     width: 100%;
     height: 100%;
-    background-color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif,sans-serif;
+    font-weight: 100;
+
+    animation: fadeInAnimation ease 0.3s
 }
 
 /*-----------------------------------------------------------------*/
 /*Nav Bar*/
-ul {
-    /*margin-left: 63vw;*/
-    list-style-type: none;
-    overflow: hidden;
-    z-index: 2;
-}
-
-.navbar {
-    text-align: right;
-    right: 5%;
-    width: 100%;
-    position: absolute;
-    z-index: 2;
-    margin-top: 1%;
+.navbar ul{
+    text-align: left;
+    top: 33px;
+    right: 30px;
+    width: auto;
+    position: fixed;
+    z-index: 5;
 }
 
 .navbar a {
     vertical-align: baseline;
     display: inline-block;
     text-decoration: none;
-    color: #808080;
-    padding-left: 3vw;
+    color: black;
+    padding-right: 80px;
     z-index: 2;
-    font-size: 1.75vw;
-    transition: 0.3s;
+    font-size: 16px;
 }
 
 .navbar ul a:hover{
-    color: #A41034;
     z-index: 2;
-    font-size: 2vw;
 }
 
 .navbar h0{
-    color: #A41034;
-    font-size: 2.8vw;
+    vertical-align: baseline;
+    position: fixed;
+    color: black;
+    font-size: 33px;
+    font-weight: 400;
     transition: 0.3s;
-    margin-right: 35vw;
+    top: 32px;
+    left: 8%;
+    z-index: 6;
 }
 
 .navbar h0:hover{
-    font-size: 3vw;
+    font-size: 36px;
 }
 
+.dropdown {
+    display: none;
+}
+
+/*-------------*/
+
+hr0{
+    display: inline-block;
+    position: fixed;
+    z-index: 2;
+    top: 43px;
+    right: 485px;
+    width: 135px;
+    height: 0.01vw;
+    background-color: black;
+    
+}
+hr1{
+    display: inline-block;
+    position: fixed;
+    z-index: 2;
+    top: 43px;
+    right: 335px;
+    width: 140px;
+    height: 0.01vw;
+    background-color: black;
+}
+
+hr2{
+    display: inline-block;
+    position: fixed;
+    z-index: 2;
+    top: 43px;
+    right: 196px;
+    width: 127px;
+    height: 0.01vw;
+    background-color: black;
+}
+
+hr3{
+    display: inline-block;
+    position: fixed;
+    z-index: 2;
+    top: 43px;
+    right: 45px;
+    width: 140px;
+    height: 3.5px;
+    background-color: black;
+}
 
 /*Nav Bar*/
 /*-----------------------------------------------------------------*/
-
-/*Heading Section*/
-
-
-.title a{
-    position: fixed;
-    z-index: 2;
-    color: #A41034;
-    left: 5vw;
-    top: -2.5vw;
-    width: 50%;
-    font-size: 2.8vw;
-}
-
-.title a:hover{
-    color: #A41034;
-    z-index: 2;
-    font-size: 3vw;
-
-}
-
-
-/*Heading Section*/
-
-/*-----------------------------------------------------------------*/
-
-/*.mySlides {
-    display: none;
-}*/
-
-/*Image Settings*/
-
-
-.rectangle{
-    height: 20vw;
-    width: 70vw;
-    border-radius: 2vw;
+/*Main Section*/
+.main hr{
+    position: absolute;
     background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(130, 130, 130, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-
-/*End Image Settings*/
-
-/*Circles*/
-.circlel {
-    z-index: 1;
-    height: 4vw;
-    width: 4vw;
-    top: 47%;
-    left: 13%;
+    border: white;
     z-index: 3;
-    position: fixed;
-    background-color: #A41034;
-    border-radius: 50%;
+    left: -1%;
+    width: 130px;
+    height: 150%;
 }
 
-.circler {
-    z-index: 1;
-    height: 4vw;
-    width: 4vw;
-    top: 47%;
-    left: 84%;
-    z-index: 3;
+.main hr1{
     position: fixed;
-    background-color: #A41034;
-    border-radius: 50%;
-}
-
-/*End Circles*/
-
-/* Slideshow container */
-.slideshow-container {
-    max-width: 26vw;
+    background-color: white;
     z-index: 2;
-    top: 30%;
-    left: 15%;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 200px;
+}
+
+/*Experience*/
+.main h1{
+    font-size: 30px;
+    font-weight: 400;
     position: fixed;
-    margin: auto;
+    width: 220px;
+    top: 125px;
+    left: 130px;
+    z-index: 2;
+    animation: 0.8s ease-out 0s 1 slideInFromLeft;
 }
 
-/* Next & previous buttons */
-.prev, .next {
-    z-index: 4;
-    cursor: pointer;
-    position: fixed;
-    top: 20.75vw;
-    width: 11vw;
-    height: 1.5%;
-    color: white;
-    font-weight: bold;
-    font-size: 2.5vw;
-    transition: 0.6s ease;
-    user-select: none;
+/*HCCG*/
+#hccg{
+    z-index: 1;
+    width: 200px;
+    top: 215px;
+    left: 130px;
+    position: absolute;
+    text-align: left;
 }
 
-/* Position the "next button" to the right */
-.next {
-    left: 84.4vw;
+/*HCCG Description*/
+.main p{
+    position: absolute;
+    z-index: 1;
+    font-size: 17px;
+    font-weight: 400;
+    left: 130px;
+    margin-top: 250px;
+    color: black;
+    width: 270px;
+    text-align: justify;
 }
 
-.prev{
-    left: 14vw;
+.main p1{
+    position: absolute;
+    z-index: 1;
+    font-size: 17px;
+    font-weight: 100;
+    left: 0px;
+    margin-top: 25px;
+    color: black;
+    text-align: justify;
+    width: 100%;
 }
 
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-    opacity: 80%;
+.main p2{
+    position: absolute;
+    z-index: 1;
+    font-size: 17px;
+    font-weight: 100;
+    left: 0px;
+    margin-top: 50px;
+    color: black;
+    text-align: justify;
+    width: 80vw;
 }
 
-/* Fading animation */
+
+/*HUFPI*/
+#hufpi{
+    z-index: 1;
+    width: 200px;
+    margin-top: 95px;
+    left: 0px;
+    position: absolute;
+    text-align: left;
+}
+
+
+/*HUFPI Name*/
+.main p3{
+    position: absolute;
+    z-index: 1;
+    font-size: 17px;
+    font-weight: 400;
+    left: 0px;
+    margin-top: 165px;
+    color: black;
+    text-align: justify;
+    width: 80vw;
+}
+
+/*HUFPI Role*/
+.main p4{
+    position: absolute;
+    z-index: 1;
+    font-weight: 100;
+    left: 0px;
+    margin-top: 25px;
+    text-align: justify;
+    width: 100%;
+}
+
+.main p5{
+    position: absolute;
+    z-index: 1;
+    left: 0px;
+    margin-top: 50px;
+    width: 70%;
+    margin-bottom: 500px;
+}
+
+#report{
+    z-index: 1;
+    width: 210px;
+    margin-top: 115px;
+    right: 1vw;
+    position: absolute;
+    text-align: left;
+}
+
+/* Animation */
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+
 .fade {
     -webkit-animation-name: fade;
     -webkit-animation-duration: 1.5s;
@@ -187,243 +269,142 @@ ul {
     to {opacity: 1}
 }
 
+@media screen and (max-width: 900px) {
+    /*Nav Bar*/
+    .navbar ul{
+        top: 34px;
+    }
 
-/*Projects: Rocket*/
-.mySlides h1{
-    text-align: left;
-    z-index: 2;
-    font-size: 1.25vw;
-    font-weight: bold;
-    position: fixed;
-    left: 23%;
-    top: 45.5%;
-    color: #808080;
-    /*animation: 0.7s ease-out 0s 1 slideInFromRight;*/
-    
+    .navbar a {
+        padding-right: 40px;
+    }
+
+    .navbar ul a:hover{
+        z-index: 2;
+    }
+    /*-------------*/
+
+    hr0{
+        top: 48px;
+        right: 363px;
+        width: 95px;
+    }
+    hr1{
+        top: 48px;
+        right: 248px;
+        width: 100px;
+    }
+
+    hr2{
+        top: 48px;
+        right: 150px;
+        width: 90px;
+    }
+
+    hr3{
+        top: 48px;
+        right: 44px;
+        width: 100px;
+    }
+
+    /*Nav Bar*/
+
+    .dropdown {
+        display: none;
+    }
 }
 
-p{
-    z-index: 2;
-    font-size: 1.1vw;
-    position: fixed;
-    width: 37%;
-    left: 23%;
-    top: 49%;
-    color: black;
-    text-align: justify;
+@media screen and (max-width: 500px) {    
+    /*Nav Bar*/
+   .navbar {
+       display: none;
+   }
+
+   .dropdown hr{
+       position: fixed;
+       background-color: white;
+       z-index: 5;
+       width: 200%;
+       height: 20%;
+       top: -9%;
+       left: -10%;
+       box-shadow: 0px 2px 16px 0px rgba(0,0,0,0.2);
+   }
+
+   .dropdown h{
+       color: black;
+       font-size: 30px;
+       font-weight: 400;
+       position: fixed;
+       z-index: 6;
+       left: 22%;
+       top: 3.2%;
+   }
+   /*Menu button image*/
+   #menu{
+       position: fixed;
+       width: 40px;
+       z-index: 6;
+       display: block;
+   }
+
+   .dropdown {
+       float: left;
+       overflow: hidden;
+       display: block;
+       margin-left: 3%;
+       margin-top: -0.5%;
+       z-index: 6;
+   }
+   
+     /* Dropdown button */
+   .dropdown .dropbtn {
+       position: fixed;
+       cursor: pointer;
+       font-size: 16px;
+       border: none;
+       outline: none;
+       color: Black;
+       padding: 14px 16px;
+       background-color: inherit;
+       font-family: inherit; /* Important for vertical align on mobile phones */
+       margin: 0; /* Important for vertical align on mobile phones */
+       z-index: 6;
+   }
+   
+     
+     /* Dropdown content (hidden by default) */
+   .dropdown-content {
+
+       display: none;
+       position: fixed;
+       background-color: #f9f9f9;
+       min-width: 100%;
+       left: -2%;
+       margin-top: 13%;
+       box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+       z-index: 6;
+   }
+     
+     /* Links inside the dropdown */
+   .dropdown-content a {
+       float: none;
+       color: black;
+       padding: 12px 16px;
+       text-decoration: none;
+       display: block;
+       text-align: center;
+       z-index: 6;
+   }
+     
+     /* Add a grey background color to dropdown links on hover */
+   .dropdown-content a:hover {
+       background-color: #ddd;
+       z-index: 6;
+   }
+
+   .show {
+       display: block;
+       z-index: 6;
+   }
 }
-
-p1{
-    z-index: 2;
-    font-size: 1.1vw;
-    position: fixed;
-    width: 55.5%;
-    left: 23%;
-    top: 51.5%;
-    color: black;
-    text-align: justify;
-}
-
-.mySlides a{
-    text-align: left;
-    z-index: 2;
-    font-size: 1.35vw;
-    font-weight: bold;
-    position: fixed;
-    width: 20%;
-    height: 2%;
-    left: 50%;
-    top: 55%;
-    color: black;
-    text-decoration: none;
-}
-
-.mySlides a:hover{
-    z-index: 2;
-    font-size: 1.45vw;
-    text-decoration: underline;
-}
-
-
-
-/*Line*/
-hr{
-    top: 82%;
-    position: fixed;
-    z-index: 2;
-    left: 10%;
-    width: 80%;
-    border: 1px solid #A41034;
-    background-color: #A41034;
-}
-
-
-
-.tri {
-    width: 0;
-	height: 0;
-	border-left: .8vw solid transparent;
-	border-right: .8vw solid transparent;
-	border-top: 1.1vw solid #A41034;
-    position: fixed;
-    top: 83.5%;
-    left: 24.25%;
-}
-
-.tri1 {
-    width: 0;
-	height: 0;
-	border-left: .8vw solid transparent;
-	border-right: .8vw solid transparent;
-	border-top: 1.1vw solid #A41034;
-    position: fixed;
-    top: 83.5%;
-    left: 50.25%;
-}
-
-
-.tri2 {
-    width: 0;
-	height: 0;
-	border-left: .8vw solid transparent;
-	border-right: .8vw solid transparent;
-	border-top: 1.1vw solid #A41034;
-    position: fixed;
-    top: 83.5%;
-    left: 73%;
-}
-
-
-.dot {
-    height: 6px;
-    width: 6px;
-    top: 83.1%;
-    left: 10%;
-    position: fixed;
-    background-color: #A41034;
-    border-radius: 50%;
-}
-
-.dots {
-    height: 6px;
-    width: 6px;
-    top: 83.1%;
-    left: 90%;
-    position: fixed;
-    background-color: #A41034;
-    border-radius: 50%;
-}
-
-/*End Line*/
-
-/*Line Text*/
-p3{
-    text-align: center;
-    z-index: 2;
-    font-size: 1vw;
-    font-weight: bold;
-    position: fixed;
-    width: 12%;
-    left: 19%;
-    top: 88%;
-    color: #A41034;
-}
-
-p4{
-    text-align: center;
-    z-index: 2;
-    font-size: 1vw;
-    font-weight: bold;
-    position: fixed;
-    width: 10%;
-    left: 46%;
-    top: 88%;
-    color: black;
-}
-
-p5{
-    text-align: center;
-    z-index: 2;
-    font-size: 1vw;
-    font-weight: bold;
-    position: fixed;
-    width: 8%;
-    left: 70%;
-    top: 88%;
-    color: black;
-}
-
-/*Change test based on slide*/
-
-p7{
-    text-align: center;
-    z-index: 2;
-    font-size: 1vw;
-    font-weight: bold;
-    position: fixed;
-    width: 12%;
-    left: 19%;
-    top: 88%;
-    color: black;
-}
-
-p8{
-    text-align: center;
-    z-index: 2;
-    font-size: 1vw;
-    font-weight: bold;
-    position: fixed;
-    width: 10%;
-    left: 46%;
-    top: 88%;
-    color: #A41034;
-}
-
-
-p9{
-    text-align: center;
-    z-index: 2;
-    font-size: 1vw;
-    font-weight: bold;
-    position: fixed;
-    width: 8%;
-    left: 70%;
-    top: 88%;
-    color: #A41034;
-}
-
-/*End Line Text*/
-
-/*-----------------------------------------------------------------*/
-
-
-/*Images*/
-#hufpi{
-    z-index: 2;
-    top: 36%;
-    left: 23%;
-    position: fixed;
-    height: 8%;
-}
-
-#dod{
-    z-index: 2;
-    top: 36%;
-    left: 35%;
-    position: fixed;
-    height: 8%;
-}
-
-#report{
-    z-index: 2;
-    top: 36%;
-    left: 66%;
-    position: fixed;
-    height: 32%;
-    border-radius: 1vw;
-    -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(80%, transparent) , to(rgba(250, 250, 250, 0.35)));
-
-}
-
-
-/*End Images*/
