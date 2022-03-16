@@ -106,147 +106,90 @@ hr3{
 /*Nav Bar*/
 
 /*-----------------------------------------------------------------*/
-/* Main */
-hr{
-    position: fixed;
-    background-color: white;
-    border: white;
+/* Slideshow container */
+.slideshow-container {
+    max-width: 26vw;
     z-index: 2;
-    left: 0;
-    width: 15vw;
-    height: 100%;
+    top: 30%;
+    left: 15%;
+    position: fixed;
+    margin: auto;
 }
 
-/*Projects*/
-.header h{
+/*Experience*/
+.slideshow-container h0{
     font-size: 30px;
     font-weight: 400;
     position: fixed;
-
-    width: 230px;
-    top: 135px;
-    left: 15vw;
-    animation: 0.8s ease-out 0s 1 slideInFromLeft;
+    width: 220px;
+    top: 125px;
+    left: 10%;
     z-index: 1;
+    animation: 0.8s ease-out 0s 1 slideInFromLeft;
 }
 
-
-.main p1{
-    font-weight: 100;
+.slideshow-container hr{
+    z-index: 2;
     position: fixed;
-    display: inline-block;
-    text-align: justify;
-    width: 25vw;
-    z-index: 3;
-    margin-top: 185px;
-    left: 15vw;
+    left: 0;
+    top: 80px;
+    width: 10%;
+    height: 100%;
+    background-color: white;
+    border: white;
 }
 
-.main p2{
-    font-weight: 100;
-    position: fixed;
-    display: inline-flexbox;
-    text-align: justify;
-    width: 25vw;
-    z-index: 3;
-    margin-top: 45px;
-    left: 15vw;
-}
-
-.main p3{
-    font-weight: 100;
-    position: fixed;
-    text-align: justify;
-    width: 25vw;
-    z-index: 3;
-    margin-top: 45px;
-    left: 15vw;
-}
-
-.main p4{
+.mySlides a{
     font-weight: 400;
-    position: fixed;
-    text-align: left;
-    width: 27vw;
-    z-index: 3;
-    margin-top: 155px;
-    left: 45vw;
-    margin-left: 200px;
+    text-decoration: none;
+    color: black;
 }
 
-.main p5{
-    position: fixed;
-    display: block;
-    font-weight: 100;
-    z-index: 3;
-    margin-top: 0px;
-    margin-left: 0;
+.mySlides a:hover{
+    font-size: 18px;
+    transition: 0.3s;
 }
 
-.main p6{
-    font-weight: 400;
-    position: fixed;
-    text-align: left;
-    width: 27vw;
-    z-index: 3;
-    margin-top: 325px;
-    left: 45vw;
-    margin-left: 200px;
-}
 
-.main p7{
-    position: fixed;
-    display: block;
-    font-weight: 100;
-    z-index: 3;
-    margin-top: 0px;
-    margin-left: 0;
-}
-
-/*Grid Settings*/
-.row {
-    position: fixed;
-    display: -ms-flexbox; /* IE10 */
-    display: flex;
-    -ms-flex-wrap: wrap; /* IE10 */
-    flex-wrap: wrap;
-    margin-left: 45vw;
-    z-index: 3;
-
-  }
-  
-.column {
-    -ms-flex: 25%; /* IE10 */
-    flex: 25%;
-    max-width: 140px;
-    padding: 0 10px;
-    margin-top: 110px;
-    
-}
-
-.column img {
-    margin-top: 19px;
-    margin-left: 0;
-    vertical-align: middle;
-    width: 100%;
-    
-}
-
+/*HCCG*/
 #hccg{
-    box-shadow: 0px 2px 16px 0px rgba(0,0,0,0.5);
+    z-index: 3;
+    position: fixed;
+    top: 36%;
+    left: 10%;
+    width: 200px;
 }
 
-#hufpi:hover{
-    width: 150px;
-    margin-left: -5px;
-    transition: 0.3s;
+.mySlides p4{
+    text-align: left;
+    z-index: 3;
+    font-size: 17px;
+    font-weight: 400;
+    position: fixed;
+    left: 10%;
+
+    top: 270px;
+    color: black;
 }
 
-#hccg:hover{
-    width: 150px;
-    margin-left: -5px;
-    transition: 0.3s;
+.mySlides p5{
+    text-align: left;
+    font-size: 17px;
+    font-weight: 100;
+    position: fixed;
+    left: 10%;
+    margin-top: 25px;   
 }
+
+.mySlides p6{
+    position: fixed;
+    font-size: 17px;
+    width: 76%;
+    left: 10%;
+    margin-top: 40px;
+    text-align: justify;
+}
+
 
 /*-----------------------------------------------------------------*/
 
@@ -263,18 +206,7 @@ hr{
     }
 }
 
-/* Animation */
-@keyframes slideInFromLeft {
-    0% {
-        transform: translateX(-100%);
-        opacity: 0;
-    }
-    100% {
-        transform: translateX(0);
-        opacity: 1;
-    }
-}
-
+/* Fading animation */
 .fade {
     -webkit-animation-name: fade;
     -webkit-animation-duration: 1.5s;
@@ -290,15 +222,6 @@ hr{
 @keyframes fade {
     from {opacity: .4} 
     to {opacity: 1}
-}
-
-@keyframes fadeInAnimation {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-     }
 }
 
 
@@ -396,125 +319,94 @@ hr{
         z-index: 6;
     }
 
-    /*End Nav Bar*/
-    /* Main */
-    hr{
-        position: fixed;
-        background-color: white;
-        border: white;
+    /*Nav Bar*/
+
+    /* Slideshow container */
+    .slideshow-container {
+        position: absolute;
         z-index: 2;
-        left: 0;
-        width: 10%;
-        height: 100%;
+        top: 0;
+        left: 15%;
+        height: 1000px;
+        width: 100%;;
     }
 
     /*Experience*/
-    .header h{
-        font-size: 30px;
+    .slideshow-container h0{
+        position: absolute;
+        width: 220px;
+        top: 120px;
+        left: -6px;
+    }
+
+    .slideshow-container hr{
+        position: absolute;
+        background-color: white;
+        border: white;
+        z-index: 2;
+        width: 55%;
+        left: -80px;
+    }
+
+    .mySlides p3{
+        position: absolute;
+        margin-top: 25px;
+        left: 0px;
+        width: 100px;
+    }
+
+    .mySlides a{
+        position: absolute;
+        font-weight: 400;
+        text-decoration: none;
+        color: black;
+    }
+
+    .mySlides a:hover{
+        font-size: 18px;
+        transition: 0.3s;
+    }
+
+    /*HCCG*/
+    #hccg{
+        z-index: 5;
+        position: absolute;
+        top: 210px;
+        left: -32px;
+        width: 200px;
+    }
+
+    .mySlides p4{
+        text-align: left;
+        z-index: 5;
+        font-size: 17px;
         font-weight: 400;
         position: absolute;
-
-        width: 230px;
-        top: 110px;
-        left: 10%;
-        animation: 0.8s ease-out 0s 1 slideInFromLeft;
-        z-index: 1;
+        left: -32px;
+        width: 400px;
+        top: 270px;
+        color: black;
     }
 
-
-    .main p1{
+    .mySlides p5{
+        z-index: 5;
+        text-align: left;
+        font-size: 17px;
         font-weight: 100;
         position: absolute;
-        display: inline-block;
-        text-align: justify;
-        width: 80%;
-        z-index: 3;
-        margin-top: 185px;
-        left: 10%;
-    }
-
-    .main p2{
-        font-weight: 100;
-        position: absolute;
-        display: inline-flexbox;
-        text-align: justify;
-        width: 100%;
-        z-index: 3;
-        margin-top: 45px;
         left: 0;
+        width: 500px;
+        margin-top: 25px;   
     }
 
-    .main p3{
-        font-weight: 100;
+    .mySlides p6{
+        z-index: 5;
         position: absolute;
-        text-align: justify;
-        width: 100%;
-        z-index: 3;
-        margin-top: 45px;
+        font-size: 17px;
+        width: 76%;
         left: 0;
+        margin-top: 40px;
+        text-align: justify;
     }
-
-    .main p4{
-        display: none;
-    }
-
-    .main p5{
-        display: none;
-    }
-
-    .main p6{
-        display: none;
-    }
-
-    .main p7{
-        display: none;
-    }
-
-    /*Grid Settings*/
-    .row {
-        position: absolute;
-        display: -ms-flexbox; /* IE10 */
-        display: flex;
-        -ms-flex-wrap: wrap; /* IE10 */
-        flex-wrap: wrap;
-        margin-left: 10%;
-        z-index: 3;
-
-    }
-    
-    .column {
-        -ms-flex: 25%; /* IE10 */
-        flex: 25%;
-        max-width: 80%;
-        padding: 0 10px;
-        margin-top: 400px;
-        
-    }
-
-    .column img {
-        margin-top: 19px;
-        margin-left: 0;
-        vertical-align: middle;
-        width: 100%;
-        
-    }
-
-    #hccg{
-        box-shadow: 0px 2px 16px 0px rgba(0,0,0,0.5);
-    }
-
-    #hufpi:hover{
-        margin-left: 0%;
-        width: 100%;
-    }
-
-    #hccg:hover{
-        margin-left: 0%;
-        width: 100%;
-    }
-
-
-
-
 }
 
