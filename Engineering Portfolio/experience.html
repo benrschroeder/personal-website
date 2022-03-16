@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./experience.css">
     <link rel="icon" href="./Resources/logo.png" type="image/png"/>
 </head>
-<script src="projects.js"></script>
+<script src="experience.js"></script>
 <body>
     <!-- Navbar section -->
     <nav class="navbar">
@@ -35,31 +35,52 @@
         <a href="./projects.html">Projects</a> 
         <a href="./experience.html">Experience</a>
     </div>
-    </div>
+    </div>  
 
-    <div class="main">
+    <!-- Slideshow container -->
+
+    <div class="slideshow-container">
+        <h0>E x p e r i e n c e</h0>
         <hr>
-        <hr1></hr1>
-        <h1>E x p e r i e n c e</h1>
-        <img id="hccg" src="./Resources/hccg.png" alt="" >
-        <p>Harvard College Consulting Group
-            <p1>Associate (2020-Present)
-                <p2>
-                    Across three semesters with the Harvard College Consulting Group I participated in six-person teams to provide a go-to market strategy to an international software and video game developer, a partnership strategy for a major government administration, and a digital transformation strategy for a Fortune 50 financial services firm. I conducted internal and expert interviews, large-scale surveys, and synthesized this research into recommendations presented to high-level executives and leaders at each client.
-                    <img id="hufpi" src="./Resources/hufpi.png" alt="" >
-                    <img id="report" src="./Resources/report.png" alt="" >
-                    <p3>
-                        Harvard Undergraduate Foreign Policy Initiative
-                        <p4>
-                            Policy Chair (2021-2022)
-                            <p5>
-                                In the Fall of 2021 I led a seven-person research team in partnership with the Department of Defense to produce a comprehensive policy paper on security challenges in the Gulf of Guinea region. During this engagement, we conducted interviews with experts from the Harvard Kennedy School of Government and the office of the Secretary of Defense. In February of 2022 we presented our findings to members of the Office of the Secretary of State and their coworkers and submitted our 30-page policy report to their team.
-                            </p5>
-                        </p4>
-                    </p3>
-                </p2>
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+            <h onclick="plusSlides(1)">Harvard College Consulting Group</h>
+            <img id="hufpi" src="./Resources/hufpi.png">
+            <img id="report" src="./Resources/report.png">
+            <p>Harvard Undergraduate Foreign Policy Initiative
+                <p1>Policy Chair (2021-2022)
+                    <p2>In the Fall of 2021 I led a seven-person research team in partnership with the Department of Defense to produce a comprehensive policy paper on security challenges in the Gulf of Guinea region. During this engagement, we conducted interviews with experts from the Harvard Kennedy School of Government and the office of the Secretary of Defense. In February of 2022 we presented our findings to members of the Office of the Secretary of State and their coworkers and submitted our 30-page policy report to their team. 
+                        <p3><a href="https://www.harvardforeignpolicy.org/">Read More...</a></p3>
+                    </p2>
+                </p1>
+            </p>
+            
+        </div>
+
+        <div class="mySlides fade">
+            <h1 onclick="plusSlides(1)">Harvard Undergraduate Foreign Policy Initiative</h1>
+            <img id="hccg" src="./Resources/hccg.png">
+            <p4>Harvard College Consulting Group
+                <p5>Associate (2020-2022)
+                    <p6>Across three semesters with the Harvard College Consulting Group I participated in six-person teams to provide a go-to market strategy to an international software and video game developer, a partnership strategy for a major government administration, and a digital transformation strategy for a Fortune 50 financial services firm. I conducted internal and expert interviews, large-scale surveys, and synthesized this research into recommendations presented to high-level executives and leaders at each client.
+                        <p3><a href="https://www.harvardconsulting.org/">Read More...</a></p3>
+                    </p6>
+                </p5>
+            </p4>
+            
+        </div>
+    
+        <!--<div class="mySlides fade">
+            <img id="hufpi" src="./Resources/rotc.png">
+            <h1>Cadet Third-Class - Det 365 | 2020-Present</h1>
+            <p1>Since the Fall of 2020 I have participated in Harvard's Air Force Reserve Officer Training Corps with Det 365, a joint AFROTC detachment hosted at MIT in partnership with Tufts and Wellesley. There I have engaged in an intensive leadership development program including Group Leadership Problems, academic courses in Air Force history and operations, and physical training. This program prepares cadets to commission as a Second Lieutenant (2Lt) in the US Air Force or Space Force.
             </p1>
-        </p>
+        </div>-->
+        
+    
+        <!-- Next and previous buttons -->
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        
     </div>
 
 </body>
