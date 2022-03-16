@@ -41,16 +41,16 @@ html, body {
     vertical-align: baseline;
     position: fixed;
     color: black;
-    font-size: 33px;
-    font-weight: 400;
+    font-size: 28px;
+    font-weight: 100;
     transition: 0.3s;
-    top: 32px;
+    top: 34px;
     left: 8%;
     z-index: 6;
 }
 
 .navbar h0:hover{
-    font-size: 36px;
+    font-size: 31px;
 }
 
 .dropdown {
@@ -322,7 +322,7 @@ hr{
     .dropdown h{
         color: black;
         font-size: 30px;
-        font-weight: 400;
+        font-weight: 100;
         position: fixed;
         z-index: 6;
         left: 22%;
