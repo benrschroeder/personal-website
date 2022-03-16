@@ -326,7 +326,7 @@ hr{
         position: fixed;
         z-index: 6;
         left: 22%;
-        top: 3%;
+        top: 3.2%;
     }
     /*Menu button image*/
     #menu{
@@ -353,7 +353,7 @@ hr{
         border: none;
         outline: none;
         color: Black;
-        padding: 14px 16px;
+        padding: 16px 16px;
         background-color: inherit;
         font-family: inherit; /* Important for vertical align on mobile phones */
         margin: 0; /* Important for vertical align on mobile phones */
