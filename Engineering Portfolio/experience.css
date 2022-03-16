@@ -321,12 +321,12 @@ hr{
 
     .dropdown h{
         color: black;
-        font-size: 30px;
+        font-size: 27px;
         font-weight: 100;
         position: fixed;
         z-index: 6;
         left: 22%;
-        top: 3.2%;
+        top: 3%;
     }
     /*Menu button image*/
     #menu{
