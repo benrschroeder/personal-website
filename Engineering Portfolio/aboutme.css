@@ -8,8 +8,6 @@ html, body {
     height: 100%;
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif,sans-serif;
     font-weight: 100;
-
-    animation: fadeInAnimation ease 0.3s
 }
 
 /*-----------------------------------------------------------------*/
@@ -50,7 +48,7 @@ html, body {
 }
 
 .navbar h0:hover{
-    font-size: 36px;
+    font-size: 31px;
 }
 
 .dropdown {
@@ -115,6 +113,9 @@ hr3{
     padding-left: 140px;
     position: fixed;
     text-align: center;
+    opacity: 0;
+    animation: 1s ease-in 0.25s 1 fadeInAnimation;
+    animation-fill-mode: forwards;
 }
 
 /*About Me:*/
@@ -126,7 +127,9 @@ hr3{
     top: 125px;
     left: 460px;
     z-index: 1;
-    animation: 0.8s ease-out 0s 1 slideInFromLeft;
+    opacity: 0;
+    animation: 0.8s ease-out 0.75s 1 slideInFromLeft;
+    animation-fill-mode: forwards;
 }
 
 
@@ -141,6 +144,7 @@ hr3{
     height: 100%;
 }
 
+/*I was born*/
 .main p{
     position: fixed;
     text-align: left;
@@ -151,8 +155,12 @@ hr3{
     color: black;
     width: 47%;
     text-align: justify;
+    opacity: 0;
+    animation: 1s ease-in 1.5s 1 fadeInAnimation;
+    animation-fill-mode: forwards;
 }
 
+/*I have a*/
 .main p1{
     position: fixed;
     text-align: left;
@@ -163,6 +171,48 @@ hr3{
     color: black;
     text-align: justify;
     width: 47%;
+    opacity: 0;
+    animation: 1s ease-in 2s 1 fadeInAnimation;
+    animation-fill-mode: forwards;
+}
+
+/*Footer*/
+#linkedin{
+    z-index: 2;
+    height: 6%;
+    top: 86%;
+    left: 68%;
+    position: fixed;
+    text-align: center;
+    opacity: 0;
+    animation: 1s ease-in 2.5s 1 fadeInAnimation;
+    animation-fill-mode: forwards;
+}
+
+#email{
+    z-index: 2;
+    height: 7%;
+    top: 84.75%;
+    left: 68%;
+    margin-left: 70px;
+    position: fixed;
+    text-align: center;
+    opacity: 0;
+    animation: 1s ease-in 2.6s 1 fadeInAnimation;
+    animation-fill-mode: forwards;
+}
+
+#download{
+    z-index: 2;
+    height: 6%;
+    top: 85.5%;
+    left: 68%;
+    margin-left: 150px;
+    position: fixed;
+    text-align: center;
+    opacity: 0;
+    animation: 1s ease-in 2.7s 1 fadeInAnimation;
+    animation-fill-mode: forwards;
 }
 
 
@@ -271,6 +321,7 @@ hr3{
         left: 80px;
         z-index: 1;
         animation: 0.8s ease-out 0s 1 slideInFromLeft;
+        opacity: 1;
     }
     
     
@@ -366,7 +417,7 @@ hr3{
         background-color: inherit;
         font-family: inherit; /* Important for vertical align on mobile phones */
         margin: 0; /* Important for vertical align on mobile phones */
-        z-index: 6;
+        z-index: 7;
     }
     
       
@@ -377,10 +428,10 @@ hr3{
         position: fixed;
         background-color: #f9f9f9;
         min-width: 100%;
-        left: -2%;
+        left: 0;
         margin-top: 13%;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-        z-index: 6;
+        z-index: 7;
     }
       
       /* Links inside the dropdown */
@@ -391,13 +442,13 @@ hr3{
         text-decoration: none;
         display: block;
         text-align: center;
-        z-index: 6;
+        z-index: 7;
     }
       
       /* Add a grey background color to dropdown links on hover */
     .dropdown-content a:hover {
         background-color: #ddd;
-        z-index: 6;
+        z-index: 7;
     }
 
     .show {
@@ -413,20 +464,18 @@ hr3{
         border: white;
         z-index: 3;
         left: -30px;
-        width: 78px;
+        width: 58px;
         height: 30%;
     }
 
     /*About Me:*/
 
     .main h1{
-        left: 4vw;
+        left: 3%;
         text-align: center;
         z-index: 2;
         position: absolute;
         top: 80px;
-        left: 6vw;
-        
     }
 
     /*Profile Picture*/
@@ -450,7 +499,7 @@ hr3{
         color: black;
         margin-top: 150%;
         left: 7%;
-        z-index: 6;
+        z-index: 5;
     }
 
     .main p1{
@@ -464,6 +513,46 @@ hr3{
         width: 100%;
         text-align: justify;
         padding-bottom: 50px;
+    }
+    /*Footer*/
+    #linkedin{
+        z-index: 5;
+        height: 5%;
+        top: 1100px;
+        left: 10%;
+        position: absolute;
+        text-align: center;
+        animation: 6s ease-out 0s 1 fadeInAnimation;
+        opacity: 0;
+        animation: 1s ease-in 2.7s 1 fadeInAnimation;
+        animation-fill-mode: forwards;
+    }
+
+    #email{
+        z-index: 5;
+        height: 5%;
+        top: 1099px;
+        left: 10%;
+        margin-left: 55px;
+        position: absolute;
+        text-align: center;
+        opacity: 0;
+        animation: 1s ease-in 2.8s 1 fadeInAnimation;
+        animation-fill-mode: forwards;
+    }
+
+    #download{
+        z-index: 5;
+        height: 5%;
+        top: 1100px;
+        left: 10%;
+        margin-left: 115px;
+        position: absolute;
+        text-align: center;
+        padding-bottom: 30px;
+        opacity: 0;
+        animation: 1s ease-in 2.9s 1 fadeInAnimation;
+        animation-fill-mode: forwards;
     }
 
 }

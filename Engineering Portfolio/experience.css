@@ -117,7 +117,7 @@ hr{
     height: 100%;
 }
 
-/*Projects*/
+/*Experience*/
 .header h{
     font-size: 30px;
     font-weight: 400;
@@ -130,7 +130,7 @@ hr{
     z-index: 1;
 }
 
-
+/*I have a myriad*/
 .main p1{
     font-weight: 100;
     position: fixed;
@@ -140,8 +140,12 @@ hr{
     z-index: 3;
     margin-top: 185px;
     left: 15vw;
+    opacity: 0;
+    animation: 0.8s ease-in 0.5s 1 fadeInAnimation;
+    animation-fill-mode: forwards;
 }
 
+/*At Harvard*/
 .main p2{
     font-weight: 100;
     position: fixed;
@@ -151,8 +155,12 @@ hr{
     z-index: 3;
     margin-top: 45px;
     left: 15vw;
+    opacity: 0;
+    animation: 0.8s ease-in 0.75s 1 fadeInAnimation;
+    animation-fill-mode: forwards;
 }
 
+/*Click the icons*/
 .main p3{
     font-weight: 100;
     position: fixed;
@@ -161,19 +169,27 @@ hr{
     z-index: 3;
     margin-top: 45px;
     left: 15vw;
+    opacity: 0;
+    animation: 0.8s ease-in 1s 1 fadeInAnimation;
+    animation-fill-mode: forwards;
 }
 
+/*Harvard Undergraduate Foreign Policy Initiative*/
 .main p4{
     font-weight: 400;
     position: fixed;
     text-align: left;
     width: 27vw;
     z-index: 3;
-    margin-top: 155px;
+    margin-top: 129px;
     left: 45vw;
-    margin-left: 200px;
+    margin-left: 180px;
+    opacity: 0;
+    animation: 0.8s ease-in 2s 1 fadeInAnimation;
+    animation-fill-mode: forwards;
 }
 
+/*Policy Chair*/
 .main p5{
     position: fixed;
     display: block;
@@ -184,23 +200,50 @@ hr{
 }
 
 .main p6{
+    position: fixed;
+    display: block;
+    text-align: justify;
+    font-weight: 100;
+    z-index: 3;
+    margin-top: 20px;
+    margin-left: 0;
+    width: 350px;
+}
+
+/*Harvard College Consulting Group*/
+.main p7{
     font-weight: 400;
     position: fixed;
     text-align: left;
     width: 27vw;
     z-index: 3;
-    margin-top: 325px;
+    margin-top: 290px;
     left: 45vw;
-    margin-left: 200px;
+    margin-left: 180px;
+    opacity: 0;
+    animation: 0.8s ease-in 2s 1 fadeInAnimation;
+    animation-fill-mode: forwards;
 }
 
-.main p7{
+/*Associate*/
+.main p8{
     position: fixed;
     display: block;
     font-weight: 100;
     z-index: 3;
     margin-top: 0px;
     margin-left: 0;
+}
+
+.main p9{
+    position: fixed;
+    display: block;
+    text-align: justify;
+    font-weight: 100;
+    z-index: 3;
+    margin-top: 20px;
+    margin-left: 0;
+    width: 350px;
 }
 
 /*Grid Settings*/
@@ -212,7 +255,9 @@ hr{
     flex-wrap: wrap;
     margin-left: 45vw;
     z-index: 3;
-
+    opacity: 0;
+    animation: 0.8s ease-in 1.5s 1 fadeInAnimation;
+    animation-fill-mode: forwards;
   }
   
 .column {
@@ -250,18 +295,6 @@ hr{
 
 /*-----------------------------------------------------------------*/
 
-
-/* Animation */
-@keyframes slideInFromLeft {
-    0% {
-        transform: translateX(-100%);
-        opacity: 0;
-    }
-    100% {
-        transform: translateX(0);
-        opacity: 1;
-    }
-}
 
 /* Animation */
 @keyframes slideInFromLeft {
