@@ -536,7 +536,7 @@ span:before{
         font-size: 25px;
         font-weight: 400;
         position: absolute;
-        margin-top: 116%;
+        margin-top: 115%;
         padding-left: 10%;
         width: 100%;
     }
@@ -585,7 +585,7 @@ span:before{
     /*Footer*/
     #linkedin{
         z-index: 5;
-        height: 6%;
+        height: 5%;
         top: 925px;
         left: 10%;
         position: absolute;
@@ -594,7 +594,7 @@ span:before{
 
     #email{
         z-index: 5;
-        height: 6%;
+        height: 5%;
         top: 922px;
         left: 10%;
         margin-left: 55px;
@@ -604,7 +604,7 @@ span:before{
 
     #download{
         z-index: 5;
-        height: 6%;
+        height: 5%;
         top: 923px;
         left: 10%;
         margin-left: 115px;
