@@ -41,12 +41,14 @@ html, body {
     vertical-align: baseline;
     position: fixed;
     color: black;
-    font-size: 33px;
-    font-weight: 400;
+    font-size: 28px;
+    font-weight: 100;
     transition: 0.3s;
-    top: 32px;
-    left: 8%;
+    top: 36px;
+    left: 5%;
+    z-index: 6;
 }
+
 
 .navbar h0:hover{
     font-size: 36px;
@@ -435,12 +437,12 @@ span:before{
 
     .dropdown h{
         color: black;
-        font-size: 30px;
-        font-weight: 400;
+        font-size: 27px;
+        font-weight: 100;
         position: fixed;
         z-index: 6;
         left: 22%;
-        top: 3.2%;
+        top: 3.4%;
     }
     /*Menu button image*/
     #menu{
