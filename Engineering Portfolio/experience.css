@@ -487,20 +487,81 @@ hr{
         left: 0;
     }
 
+    /*Harvard Undergraduate Foreign Policy Initiative*/
     .main p4{
-        display: none;
+        font-weight: 400;
+        display: block;
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        z-index: 3;
+        margin-top: 670px;
+        left: -40%;
+        opacity: 0;
+        animation: 0.8s ease-in 2s 1 fadeInAnimation;
+        animation-fill-mode: forwards;
     }
 
+    /*Policy Chair*/
     .main p5{
-        display: none;
+        position: absolute;
+        display: block;
+        text-align: center;
+        font-weight: 100;
+        z-index: 3;
+        margin-top: 0px;
+        margin-left: 0%;
+        width: 100%;
     }
 
     .main p6{
-        display: none;
+        position: absolute;
+        display: block;
+        text-align: center;
+        font-weight: 100;
+        z-index: 3;
+        margin-top: 20px;
+        width: 80%;
+        margin-left: 10%;
     }
 
+    /*Harvard College Consulting Group*/
     .main p7{
-        display: none;
+        font-weight: 400;
+        position: absolute;
+        text-align: center;
+        display: block;
+        width: 100%;
+        z-index: 3;
+        margin-top: 1050px;
+        left: -40%;
+        opacity: 0;
+        animation: 0.8s ease-in 2s 1 fadeInAnimation;
+        animation-fill-mode: forwards;
+    }
+
+    /*Associate*/
+    .main p8{
+        position: absolute;
+        display: block;
+        text-align: center;
+        font-weight: 100;
+        z-index: 3;
+        margin-top: 0px;
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .main p9{
+        position: absolute;
+        display: block;
+        text-align: center;
+        font-weight: 100;
+        z-index: 3;
+        margin-top: 20px;
+        margin-left: 10%;
+        width: 80%;
+        padding-bottom: 60px;
     }
 
     /*Grid Settings*/
@@ -510,7 +571,7 @@ hr{
         display: flex;
         -ms-flex-wrap: wrap; /* IE10 */
         flex-wrap: wrap;
-        margin-left: 10%;
+        margin-left: 25%;
         z-index: 3;
 
     }
@@ -518,14 +579,14 @@ hr{
     .column {
         -ms-flex: 25%; /* IE10 */
         flex: 25%;
-        max-width: 80%;
+        max-width: 50%;
         padding: 0 10px;
-        margin-top: 400px;
+        margin-top: 250px;
         
     }
 
     .column img {
-        margin-top: 19px;
+        margin-top: 200px;
         margin-left: 0;
         vertical-align: middle;
         width: 100%;
