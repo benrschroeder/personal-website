@@ -496,7 +496,7 @@ hr{
         width: 100%;
         z-index: 3;
         margin-top: 630px;
-        left: -47%;
+        left: -45%;
         opacity: 0;
         animation: 0.8s ease-in 2s 1 fadeInAnimation;
         animation-fill-mode: forwards;
@@ -534,7 +534,7 @@ hr{
         width: 100%;
         z-index: 3;
         margin-top: 1010px;
-        left: -47%;
+        left: -45%;
         opacity: 0;
         animation: 0.8s ease-in 2s 1 fadeInAnimation;
         animation-fill-mode: forwards;
