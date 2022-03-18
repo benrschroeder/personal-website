@@ -466,19 +466,21 @@ span:before{
         left: 5%;
         top: 25px;
         width: 100%;
+        
     }
 
     .dropdown h0{
         position: fixed;
         text-align: center;
-        vertical-align: top;
+        vertical-align: baseline;
         z-index: 6;
         margin-left: 15%;
+        height: 40px;
     }
     /*Menu button image*/
     #menu{
         position: fixed;
-        width: 40px;
+        height: 40px;
         z-index: 6;
         display: block;
     }
