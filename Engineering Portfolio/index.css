@@ -475,6 +475,8 @@ span:before{
         vertical-align: baseline;
         z-index: 6;
         margin-left: 15%;
+        margin-top: 5px;
+
         height: 40px;
     }
     /*Menu button image*/
@@ -483,6 +485,7 @@ span:before{
         height: 40px;
         z-index: 6;
         display: block;
+
     }
 
     .dropdown { 
