@@ -157,7 +157,7 @@ hr{
     margin-top: 45px;
     left: 8vw;
     opacity: 0;
-    animation: 1s ease-in 1.3s 1 fadeInAnimation;
+    animation: 1s ease-in 1s 1 fadeInAnimation;
     animation-fill-mode: forwards;
     
 }
@@ -172,7 +172,7 @@ hr{
     margin-top: 45px;
     left: 8vw;
     opacity: 0;
-    animation: 1s ease-in 1.6s 1 fadeInAnimation;
+    animation: 1s ease-in 1.5s 1 fadeInAnimation;
     animation-fill-mode: forwards;
     
 }
@@ -188,7 +188,7 @@ hr{
     margin-left: 40vw;
     z-index: 3;
     opacity: 0;
-    animation: 1s ease-in 2.2s 1 fadeInAnimation;
+    animation: 1s ease-in 1.9s 1 fadeInAnimation;
     animation-fill-mode: forwards;
   }
   

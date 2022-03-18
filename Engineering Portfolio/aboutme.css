@@ -156,7 +156,7 @@ hr3{
     width: 47%;
     text-align: justify;
     opacity: 0;
-    animation: 1s ease-in 1.5s 1 fadeInAnimation;
+    animation: 1s ease-in 1.25s 1 fadeInAnimation;
     animation-fill-mode: forwards;
 }
 
@@ -172,7 +172,7 @@ hr3{
     text-align: justify;
     width: 47%;
     opacity: 0;
-    animation: 1s ease-in 2s 1 fadeInAnimation;
+    animation: 1s ease-in 1.5s 1 fadeInAnimation;
     animation-fill-mode: forwards;
 }
 
@@ -185,7 +185,7 @@ hr3{
     position: fixed;
     text-align: center;
     opacity: 0;
-    animation: 1s ease-in 2.5s 1 fadeInAnimation;
+    animation: 1s ease-in 1.75s 1 fadeInAnimation;
     animation-fill-mode: forwards;
 }
 
@@ -198,7 +198,7 @@ hr3{
     position: fixed;
     text-align: center;
     opacity: 0;
-    animation: 1s ease-in 2.6s 1 fadeInAnimation;
+    animation: 1s ease-in 1.76s 1 fadeInAnimation;
     animation-fill-mode: forwards;
 }
 
@@ -211,7 +211,7 @@ hr3{
     position: fixed;
     text-align: center;
     opacity: 0;
-    animation: 1s ease-in 2.7s 1 fadeInAnimation;
+    animation: 1s ease-in 1.77s 1 fadeInAnimation;
     animation-fill-mode: forwards;
 }
 

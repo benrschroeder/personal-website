@@ -161,7 +161,7 @@ hr3{
     width: 55%;
     text-align: justify;
     opacity: 0;
-    animation: 1s ease-in 1s 1 fadeInAnimation;
+    animation: 1s ease-in 0.75s 1 fadeInAnimation;
     animation-fill-mode: forwards;
     
 }
@@ -180,7 +180,7 @@ hr3{
     width: 55%;
     text-align: justify;
     opacity: 0;
-    animation: 1s ease-in 1.3s 1 fadeInAnimation;
+    animation: 1s ease-in 1.05s 1 fadeInAnimation;
     animation-fill-mode: forwards;
 }
 
@@ -197,7 +197,7 @@ hr3{
     width: 55%;
     text-align: justify;
     opacity: 0;
-    animation: 1s ease-in 1.6s 1 fadeInAnimation;
+    animation: 1s ease-in 1.35s 1 fadeInAnimation;
     animation-fill-mode: forwards;
 }
 
@@ -228,7 +228,7 @@ hr3{
     position: fixed;
     text-align: center;
     opacity: 0;
-    animation: 1s ease-in 2.2s 1 fadeInAnimation;
+    animation: 1s ease-in 1.75s 1 fadeInAnimation;
     animation-fill-mode: forwards;
 }
 
@@ -241,7 +241,7 @@ hr3{
     position: fixed;
     text-align: center;
     opacity: 0;
-    animation: 1s ease-in 2.3s 1 fadeInAnimation;
+    animation: 1s ease-in 1.76s 1 fadeInAnimation;
     animation-fill-mode: forwards;
 }
 
@@ -254,7 +254,7 @@ hr3{
     position: fixed;
     text-align: center;
     opacity: 0;
-    animation: 1s ease-in 2.4s 1 fadeInAnimation;
+    animation: 1s ease-in 1.77s 1 fadeInAnimation;
     animation-fill-mode: forwards;
 }
 
@@ -459,7 +459,7 @@ span:before{
 
     .dropdown h{
         color: black;
-        font-size: 27px;
+        font-size: 25px;
         font-weight: 100;
         position: fixed;
         z-index: 6;

@@ -5,192 +5,223 @@ html, body {
     left:0;
     right:0;
     width: 100%;
-    height: 83vw;
-    background-color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif,sans-serif;
+    font-weight: 100;
 }
 
-
+/*-----------------------------------------------------------------*/
 /*Nav Bar*/
-.navbar {
-    height: 20%;
-    width: 100%;
-    /*width: 100%;*/
-    position: fixed;
-    top: 0;
-    left: 0;
-    /*padding-top: 190px;*/
-    /*padding-top: 9vw;*/
-    z-index: 2;
-    /*background-color: #bcbcbc;*/
-}
-
-ul {
-    margin-left: 63vw;
-    list-style-type: none;
-    overflow: hidden;
-    z-index: 2;
-}
-
-a {
-    text-decoration: none;
-    padding: 5% 8% 0px 0px;
-    /*font-size: 30px;*/
-    font-size: 1.75vw;
-    display: inline-block;
-    transition: 0.3s;
-    z-index: 2;
+.navbar ul{
+    text-align: left;
+    top: 30px;
+    right: 30px;
+    width: auto;
+    position: absolute;
+    z-index: 5;
 }
 
 .navbar a {
-    
-    color: #808080;
-    /*height: 3vw;*/
+    vertical-align: baseline;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding-right: 80px;
     z-index: 2;
+    font-size: 16px;
 }
 
 .navbar ul a:hover{
-    color: #A41034;
     z-index: 2;
+}
+
+.navbar h0{
+    vertical-align: baseline;
+    position: absolute;
+    color: black;
+    font-size: 28px;
+    font-weight: 100;
+    transition: 0.3s;
+    top: 33px;
+    left: 5%;
+    z-index: 6;
+}
+
+.navbar h0:hover{
+    font-size: 31px;
+}
+
+.dropdown {
+    display: none;
+}
+
+/*-------------*/
+
+hr0{
+    display: inline-block;
+    position: absolute;
+    z-index: 2;
+    top: -5px;
+    right: 460px;
+    width: 135px;
+    height: 0.01vw;
+    background-color: black;
     
-    font-size: 2vw;
 }
-
-
-
-
-  /*Nav Bar*/
-
-/*-----------------------------------------------------------------*/
-
-/*Heading Section*/
-
-
-.title a{
-    position: fixed;
+hr1{
+    display: inline-block;
+    position: absolute;
     z-index: 2;
-    color: #A41034;
-    left: 5vw;
-    top: -2.5vw;
-    width: 50%;
-    font-size: 2.8vw;
+    top: 0;
+    margin-left: 150px;
+    width: 140px;
+    height: 0.01vw;
+    background-color: black;
 }
 
-.title a:hover{
-    color: #A41034;
+hr2{
+    display: inline-block;
+    position: absolute;
     z-index: 2;
-    font-size: 3vw;
-
+    top: 0;
+    margin-left: 150px;
+    width: 127px;
+    height: 3.5px;
+    background-color: black;
 }
 
+hr3{
+    display: inline-block;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    margin-left: 135px;
+    width: 140px;
+    height: 0.01vw;
+    background-color: black;
+}
 
-/*Heading Section*/
+/*Nav Bar*/
 
 /*-----------------------------------------------------------------*/
 
 /*Main Section*/
 
 /*Projects:*/
+/*Maret Engineering*/
 .main h1{
     display: inline-block;
     text-align: left;
     z-index: 2;
-    font-size: 5vw;
+    font-size: 3vw;
+    font-weight: 400;
     position: absolute;
-    left: 4.75vw;
-    top: 5.75vw;
-    color: black;
+    left: 7.5vw;
+    top: 9.5vw;
+    animation: 0.7s ease-out 0s 1 slideInFromRight;   
+}
+
+/*Team Lead*/
+.main h2{
+    display: inline-block;
+    text-align: left;
+    z-index: 2;
+    font-size: 1.5vw;
+    font-weight: 100;
+    position: absolute;
+    left: 7.5vw;
+    top: 13.75vw;
     animation: 0.7s ease-out 0s 1 slideInFromRight;
     
 }
 
-/*Line*/
-hr{
-    top: 16vw;
-    position: absolute;
-    z-index: 2;
-    left: 5vw;
-    width: 60vw;
-    border: 2px solid #A41034;
-    background-color: #A41034;
-    animation: 0.7s ease-out 0s 1 slideInFromLeft;
-}
-
-hr.new1{
-    position: absolute;
-    z-index: 2;
-    top: 39.5vw;
-    left: 5vw;
-    width: 80vw;
-    border: 1px solid black;
-    background-color: black;
-    animation: 1s ease-out 0s 1 slideInFromLeft;
-}
-
-
-
 #rov{
     z-index: 2;
-    width: 25vw;
-    top: 20vw;
-    left: 5vw;
+    width: 33vw;
+    top: 12.5vw;
+    left: 55vw;
     display: inline-block;
     position: absolute;
     text-align: left;
 }
 
+/*Project Overview*/
 .main p{
     text-align: left;
     display: inline-block;
     z-index: 2;
-    font-size: 3vw;
-    left: 32vw;
-    top: 16vw;
-    color: #6d6d6d;
+    font-size: 2vw;
+    font-weight: 400;
+    left: 7.5vw;
+    top: 15.5vw;
     position: absolute;
     width: 50vw;
 }
 
+/*Project Overview Description*/
 .main p1{
     text-align: left;
     display: inline-block;
     z-index: 2;
     font-size: 1.5vw;
-    left: 32vw;
-    top: 24vw;
-    color: black;
+    left: 7.5vw;
+    top: 20vw;
     position: absolute;
-    width: 50vw;
+    width: 40vw;
+    text-align: justify;
 }
 
 #mount{
     z-index: 2;
     width: 25vw;
-    top: 43vw;
-    left: 5vw;
+    top: 46vw;
+    left: 11vw;
     display: inline-block;
     position: absolute;
     text-align: left;
 }
+
+.rectangle{
+    position: absolute;
+    height: 20vw;
+    width: 33vw;
+    top: 45vw;
+    left: 7.5vw;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(130, 130, 130, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 
 #rovcad{
     z-index: 2;
-    width: 25vw;
-    top: 63vw;
-    left: 5vw;
+    width: 30vw;
+    top: 70.5vw;
+    left: 9vw;
     display: inline-block;
     position: absolute;
     text-align: left;
+    padding-bottom: 40px;
 }
 
+.rectangle1{
+    position: absolute;
+    height: 20vw;
+    width: 33vw;
+    top: 69vw;
+    left: 7.5vw;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(130, 130, 130, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*Team Lead*/
 .main p2{
     text-align: left;
     display: inline-block;
     z-index: 2;
-    font-size: 3vw;
-    left: 32vw;
-    top: 43vw;
-    color: #6d6d6d;
+    font-size: 2vw;
+    font-weight: 400;
+    left: 7.5vw;
+    top: 40vw;
     position: absolute;
     width: 50vw;
 }
@@ -200,10 +231,10 @@ hr.new1{
     display: inline-block;
     z-index: 2;
     font-size: 1.5vw;
-    left: 32vw;
-    top: 48vw;
-    color: black;
+    left: 44vw;
+    top: 47vw;
     position: absolute;
+    text-align: justify;
     width: 45vw;
 }
 
@@ -212,10 +243,10 @@ hr.new1{
     display: inline-block;
     z-index: 2;
     font-size: 1.5vw;
-    left: 32vw;
+    left: 44vw;
     top: 55vw;
-    color: black;
     position: absolute;
+    text-align: justify;
     width: 45vw;
 }
 
@@ -224,10 +255,10 @@ hr.new1{
     display: inline-block;
     z-index: 2;
     font-size: 1.5vw;
-    left: 32vw;
-    top: 63.5vw;
-    color: black;
+    left: 44vw;
+    top: 73vw;
     position: absolute;
+    text-align: justify;
     width: 45vw;
 }
 

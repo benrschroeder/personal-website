@@ -5,60 +5,104 @@ html, body {
     left:0;
     right:0;
     width: 100%;
-    height: 110vw;
-    background-color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif,sans-serif;
+    font-weight: 100;
 }
-
 
 /*-----------------------------------------------------------------*/
 /*Nav Bar*/
-ul {
-    /*margin-left: 63vw;*/
-    list-style-type: none;
-    overflow: hidden;
-    z-index: 2;
-}
-
-.navbar {
-    text-align: right;
-    right: 5%;
-    width: 100%;
+.navbar ul{
+    text-align: left;
+    top: 30px;
+    right: 30px;
+    width: auto;
     position: absolute;
-    z-index: 2;
-    margin-top: 1%;
+    z-index: 5;
 }
 
 .navbar a {
     vertical-align: baseline;
     display: inline-block;
     text-decoration: none;
-    color: #808080;
-    padding-left: 3vw;
+    color: black;
+    padding-right: 80px;
     z-index: 2;
-    font-size: 1.75vw;
-    transition: 0.3s;
+    font-size: 16px;
 }
 
 .navbar ul a:hover{
-    color: #A41034;
     z-index: 2;
-    font-size: 2vw;
 }
 
 .navbar h0{
-    color: #A41034;
-    font-size: 2.8vw;
+    vertical-align: baseline;
+    position: absolute;
+    color: black;
+    font-size: 28px;
+    font-weight: 100;
     transition: 0.3s;
-    margin-right: 35vw;
+    top: 33px;
+    left: 5%;
+    z-index: 6;
 }
 
 .navbar h0:hover{
-    font-size: 3vw;
+    font-size: 31px;
 }
 
+.dropdown {
+    display: none;
+}
+
+/*-------------*/
+
+hr0{
+    display: inline-block;
+    position: absolute;
+    z-index: 2;
+    top: -5px;
+    right: 460px;
+    width: 135px;
+    height: 0.01vw;
+    background-color: black;
+    
+}
+hr1{
+    display: inline-block;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    margin-left: 150px;
+    width: 140px;
+    height: 0.01vw;
+    background-color: black;
+}
+
+hr2{
+    display: inline-block;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    margin-left: 150px;
+    width: 127px;
+    height: 3.5px;
+    background-color: black;
+}
+
+hr3{
+    display: inline-block;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    margin-left: 135px;
+    width: 140px;
+    height: 0.01vw;
+    background-color: black;
+}
 
 /*Nav Bar*/
+
 /*-----------------------------------------------------------------*/
 
 /*Main Section*/
@@ -70,10 +114,10 @@ ul {
     text-align: left;
     z-index: 2;
     font-size: 3vw;
+    font-weight: 400;
     position: absolute;
     left: 7.5vw;
     top: 10vw;
-    color: #A41034;
     animation: 0.7s ease-out 0s 1 slideInFromRight;   
 }
 
@@ -83,6 +127,7 @@ ul {
     text-align: left;
     z-index: 2;
     font-size: 1.5vw;
+    font-weight: 100;
     position: absolute;
     left: 7.5vw;
     top: 14vw;
@@ -94,7 +139,7 @@ ul {
 #cube{
     z-index: 2;
     width: 41vw;
-    top: 12.5vw;
+    top: 14.5vw;
     left: 50vw;
     display: inline-block;
     position: absolute;
@@ -108,11 +153,10 @@ ul {
     display: inline-block;
     z-index: 2;
     font-size: 2vw;
+    font-weight: 400;
     left: 7.5vw;
     top: 15.5vw;
-    color: #6d6d6d;
     position: absolute;
-    font-weight: bold;
     width: 50vw;
 }
 
@@ -129,27 +173,15 @@ ul {
     text-align: justify;
 }
 
-hr{
-    top: 42vw;
-    position: absolute;
-    z-index: 2;
-    left: 7.5vw;
-    width: 83.5vw;
-    border: 1px solid #A41034;
-    background-color: #A41034;
-    /*animation: 0.7s ease-out 0s 1 slideInFromRight;*/
-}
-
 /*Payload Team Lead*/
 .main p2{
     text-align: left;
     display: inline-block;
     z-index: 2;
     font-size: 2vw;
-    font-weight: bold;
+    font-weight: 400;
     left: 7.5vw;
     top: 40vw;
-    color: #6d6d6d;
     position: absolute;
     width: 50vw;
 }
@@ -160,7 +192,6 @@ hr{
     width: 33vw;
     top: 45vw;
     left: 7.5vw;
-    border-radius: 1vw;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(130, 130, 130, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -176,24 +207,12 @@ hr{
 }
 
 
-hr1{
-    top: 96vw;
-    position: absolute;
-    z-index: 2;
-    left: 7.5vw;
-    width: 83.5vw;
-    border: 1px solid #A41034;
-    background-color: #A41034;
-    /*animation: 0.7s ease-out 0s 1 slideInFromRight;*/
-}
-
 .rectangle1{
     position: absolute;
     height: 20vw;
     width: 33vw;
     top: 68vw;
     left: 7.5vw;
-    border-radius: 1vw;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(130, 130, 130, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -216,10 +235,9 @@ hr1{
     display: inline-block;
     z-index: 2;
     font-size: 1.5vw;
-    font-weight: bold;
+    font-weight: 400;
     left: 44vw;
     top: 47vw;
-    color: #A41034;
     position: absolute;
     text-align: justify;
     width: 45vw;
@@ -244,10 +262,9 @@ hr1{
     display: inline-block;
     z-index: 2;
     font-size: 1.5vw;
-    font-weight: bold;
+    font-weight: 400;
     left: 44vw;
     top: 70.5vw;
-    color: #A41034;
     position: absolute;
     width: 50vw;
 }
@@ -269,21 +286,20 @@ hr1{
 #stk{
     z-index: 2;
     width: 33vw;
-    top: 2vw;
+    top: 98vw;
+    left: 7vw;
     display: inline-block;
     position: absolute;
     text-align: left;
-    border-radius: 1vw;
 }
 
 .main p7{
     text-align: left;
     z-index: 2;
     font-size: 2vw;
-    font-weight: bold;
-    left: 0vw;
-    top: -3vw;
-    color: #6d6d6d;
+    font-weight: 400;
+    left: 7vw;
+    top: 93vw;
     position: absolute;
     width: 50vw;
 }
@@ -292,10 +308,9 @@ hr1{
     text-align: left;
     z-index: 2;
     font-size: 1.5vw;
-    font-weight: bold;
-    left: 36vw;
-    top: 3.5vw;
-    color: #A41034;
+    font-weight: 400;
+    left: 44vw;
+    top: 99vw;
     position: absolute;
     width: 50vw;
 }
@@ -305,8 +320,8 @@ hr1{
     display: inline-block;
     z-index: 2;
     font-size: 1.5vw;
-    left: 36vw;
-    top: 6vw;
+    left: 44vw;
+    top: 102vw;
     color: black;
     position: absolute;
     width: 45vw;
@@ -321,9 +336,6 @@ hr1{
 /*-----------------------------------------------------------------*/
 
 /*General*/
-.bold {
-    font-weight: 700;
-}
 
 @keyframes slideInFromLeft {
     0% {
