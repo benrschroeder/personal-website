@@ -463,8 +463,16 @@ span:before{
         font-weight: 100;
         position: fixed;
         z-index: 6;
-        left: 22%;
+        left: 5%;
         top: 3.5%;
+        width: 100%;
+    }
+
+    .dropdown h0{
+        position: fixed;
+        text-align: center;
+        z-index: 6;
+        margin-left: 15%;
     }
     /*Menu button image*/
     #menu{
@@ -474,7 +482,7 @@ span:before{
         display: block;
     }
 
-    .dropdown {
+    .dropdown { 
         float: left;
         overflow: hidden;
         display: block;
@@ -491,7 +499,6 @@ span:before{
         border: none;
         outline: none;
         color: Black;
-        padding: 14px 16px;
         background-color: inherit;
         font-family: inherit; /* Important for vertical align on mobile phones */
         margin: 0; /* Important for vertical align on mobile phones */
