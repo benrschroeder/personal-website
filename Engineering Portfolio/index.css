@@ -77,7 +77,7 @@ hr1{
     top: 43px;
     right: 335px;
     width: 140px;
-    height: 0.01vw;
+    height: 1px;
     background-color: black;
 }
 
@@ -88,7 +88,7 @@ hr2{
     top: 43px;
     right: 196px;
     width: 127px;
-    height: 0.01vw;
+    height: 1px;
     background-color: black;
 }
 
@@ -99,7 +99,7 @@ hr3{
     top: 43px;
     right: 45px;
     width: 140px;
-    height: 0.01vw;
+    height: 1px;
     background-color: black;
 }
 
@@ -113,7 +113,8 @@ hr3{
 #me{
     z-index: 4;
     width: 265px;
-    top: 170px;
+    /*top: 170px;*/
+    top: 29.5%;
     left: 7vw;
     position: fixed;
     animation: 1s ease-in 0s 1 fadeInAnimation;
@@ -121,16 +122,19 @@ hr3{
 
 /*"Hi! I'm Ben Schroeder.*/
 .header h1{
+    z-index: 4;
+    position: fixed;
     display: inline-block;
     text-align: left;
-    z-index: 2;
-    font-size: 30px;
-    font-weight: 400;
-    position: fixed;
     left: 7vw;
     margin-left: 300px;
-    top: 140px;
+    top: 29.5%;
+    margin-top: -9px;
+    
+    font-size: 30px;
+    font-weight: 400;
     width: 800px;
+    
     animation: 1s ease-in 0s 1 fadeInAnimation;
     animation-fill-mode: forwards;
 }
