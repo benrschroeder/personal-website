@@ -229,7 +229,7 @@ hr3{
 /*Footer*/
 #linkedin{
     z-index: 2;
-    height: 6%;
+    height: 36px;
     top: 86%;
     left: 70%;
     position: fixed;
@@ -241,7 +241,7 @@ hr3{
 
 #email{
     z-index: 2;
-    height: 7%;
+    height: 42px;
     top: 84.75%;
     left: 70%;
     margin-left: 5.5%;
@@ -254,7 +254,7 @@ hr3{
 
 #download{
     z-index: 2;
-    height: 6%;
+    height: 36px;
     top: 85.5%;
     left: 70%;
     margin-left: 12%;
