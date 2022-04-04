@@ -139,7 +139,8 @@ hr{
     text-align: justify;
     width: 25vw;
     z-index: 3;
-    margin-top: 185px;
+    top: 24%;
+    margin-top: 75px;
     left: 8vw;
     opacity: 0;
     animation: 0.8s ease-in 0.75s 1 fadeInAnimation;
