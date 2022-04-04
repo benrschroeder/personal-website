@@ -256,7 +256,8 @@ hr{
     -ms-flex-wrap: wrap; /* IE10 */
     flex-wrap: wrap;
     margin-left: 45vw;
-    top: 24%;
+    top: 28%;
+    margin-top: -24px;
     z-index: 3;
     opacity: 0;
     animation: 0.8s ease-in 1.5s 1 fadeInAnimation;
