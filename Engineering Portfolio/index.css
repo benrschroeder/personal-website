@@ -244,11 +244,11 @@ hr3{
     height: 7%;
     top: 84.75%;
     left: 70%;
-    margin-left: 70px;
+    margin-left: 5.5%;
     position: fixed;
     text-align: center;
     opacity: 0;
-    animation: 1s ease-in 1.76s 1 fadeInAnimation;
+    animation: 1s ease-in 1.77s 1 fadeInAnimation;
     animation-fill-mode: forwards;
 }
 
@@ -257,11 +257,11 @@ hr3{
     height: 6%;
     top: 85.5%;
     left: 70%;
-    margin-left: 150px;
+    margin-left: 12%;
     position: fixed;
     text-align: center;
     opacity: 0;
-    animation: 1s ease-in 1.77s 1 fadeInAnimation;
+    animation: 1s ease-in 1.79s 1 fadeInAnimation;
     animation-fill-mode: forwards;
 }
 
