@@ -56,7 +56,6 @@ html, body {
 }
 
 /*-------------*/
-
 hr0{
     display: inline-block;
     position: fixed;
@@ -64,7 +63,7 @@ hr0{
     top: 43px;
     right: 485px;
     width: 135px;
-    height: 0.01vw;
+    height: 1px;
     background-color: black;
     
 }
@@ -75,7 +74,7 @@ hr1{
     top: 43px;
     right: 335px;
     width: 140px;
-    height: 0.01vw;
+    height: 1px;
     background-color: black;
 }
 
@@ -86,7 +85,7 @@ hr2{
     top: 43px;
     right: 196px;
     width: 127px;
-    height: 0.01vw;
+    height: 1px;
     background-color: black;
 }
 
@@ -164,10 +163,13 @@ hr3{
     z-index: 3;
     font-size: 17px;
     font-weight: 400;
+
     position: fixed;
     left: 10%;
     margin-left: 240px;
-    top: 270px;
+    top: 36%;
+    margin-top: 85px;
+
     color: black;
     opacity: 0;
     animation: 1s ease-in 1s 1 fadeInAnimation;
