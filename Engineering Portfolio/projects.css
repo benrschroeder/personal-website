@@ -65,7 +65,7 @@ hr0{
     top: 43px;
     right: 485px;
     width: 135px;
-    height: 0.01vw;
+    height: 1px;
     background-color: black;
     
 }
@@ -76,7 +76,7 @@ hr1{
     top: 43px;
     right: 335px;
     width: 140px;
-    height: 0.01vw;
+    height: 1px;
     background-color: black;
 }
 
@@ -98,7 +98,7 @@ hr3{
     top: 43px;
     right: 45px;
     width: 140px;
-    height: 0.01vw;
+    height: 1px;
     background-color: black;
 }
 
@@ -121,7 +121,8 @@ hr{
     font-weight: 400;
     position: fixed;
     width: 200px;
-    top: 135px;
+    /*top: 135px;*/
+    top: 24%;
     left: 8vw;
     z-index: 1;
     opacity: 0;
@@ -197,7 +198,8 @@ hr{
     flex: 25%;
     max-width: 310px;
     padding: 0 0.8vw;
-    margin-top: 60px;
+    top: 24%;
+    margin-top: 75px;
     
 }
 
