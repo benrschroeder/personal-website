@@ -159,12 +159,15 @@ hr3{
     font-size: 18px;
     left: 7vw;
     margin-left: 300px;
-    margin-top: 200px;
+    margin-top: 55px;
+    top: 29.5%;
     color: black;
     position: fixed;
+
     width: 55%;
     text-align: justify;
     opacity: 0;
+
     animation: 1s ease-in 0.75s 1 fadeInAnimation;
     animation-fill-mode: forwards;
     
