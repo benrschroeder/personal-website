@@ -608,6 +608,7 @@ hr{
     }
 
     /*Nav Bar*/
+    /*-------------*/
 
     .row {
         position: absolute;
@@ -618,7 +619,7 @@ hr{
         padding: 0 0vw;
         margin-left: 6%;
         top: 20%;
-        margin-top: 325px;
+        margin-top: 345px;
     
       }
     
