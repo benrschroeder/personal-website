@@ -584,7 +584,7 @@ span:before{
         font-weight: 400;
         position: absolute;
         top: 20%;
-        margin-top: 380px;
+        margin-top: 360px;
         padding-left: 10%;
         width: 100%;
         animation: 1s ease-out 0s 1 fadeInAnimation;
@@ -599,7 +599,7 @@ span:before{
         left: 0vw;
         margin-left: 10%;
         top: 20%;
-        margin-top: 425px;
+        margin-top: 405px;
         color: black;
         width: 80%;
         text-align: justify;
