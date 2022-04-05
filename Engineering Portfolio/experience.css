@@ -298,6 +298,14 @@ hr{
     transition: 0.3s;
 }
 
+#hufpim{
+    display: none;
+}
+
+#hccgm{
+    display: none
+}
+
 /*-----------------------------------------------------------------*/
 
 
@@ -474,7 +482,9 @@ hr{
         z-index: 1;
     }
 
-
+    .main{
+        width: 100%;
+    }
     .main p1{
         font-weight: 100;
         position: absolute;
@@ -509,16 +519,25 @@ hr{
     }
 
     /*Harvard Undergraduate Foreign Policy Initiative*/
+    #hufpim{
+        display: block;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        top: 25%;
+        margin-top: 455px;
+    }
+
     .main p4{
         font-weight: 400;
-        display: block;
         position: absolute;
         text-align: center;
-        width: 100%;
         z-index: 3;
-        top: 75%;
-        margin-top: 85px;
-        left: -50%;
+
+        left: 0;
+        width: 100%;
+
+        margin-top: 550px;
         opacity: 0;
         animation: 0.8s ease-in 2s 1 fadeInAnimation;
         animation-fill-mode: forwards;
@@ -548,17 +567,29 @@ hr{
     }
 
     /*Harvard College Consulting Group*/
+    #hccgm{
+        display: block;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: 0px 2px 16px 0px rgba(0,0,0,0.5);
+
+        margin-top: 210px;
+    }
+
     .main p7{
         font-weight: 400;
+        display: block;
         position: absolute;
         text-align: center;
-        display: block;
-        width: 100%;
+
         z-index: 3;
-        top: 75%;
-        margin-top: 420px;
-        left: -50%;
+        margin-top: 1020px;
+
+        left: 0;
+        width: 100%;
         opacity: 0;
+
         animation: 0.8s ease-in 2s 1 fadeInAnimation;
         animation-fill-mode: forwards;
     }
@@ -589,50 +620,8 @@ hr{
 
     /*Grid Settings*/
     .row {
-        position: absolute;
-        display: -ms-flexbox; /* IE10 */
-        display: flex;
-        -ms-flex-wrap: wrap; /* IE10 */
-        flex-wrap: wrap;
-        margin-left: 30%;
-        z-index: 3;
-        top: 25%;
-        margin-top: 130px;
+        display: none;
     }
-    
-    .column {
-        -ms-flex: 25%; /* IE10 */
-        flex: 25%;
-        max-width: 50%;
-        padding: 0 10px;
-        
-        
-    }
-
-    .column img {
-        margin-top: 200px;
-        margin-left: 0;
-        vertical-align: middle;
-        width: 100%;
-        
-    }
-
-    #hccg{
-        box-shadow: 0px 2px 16px 0px rgba(0,0,0,0.5);
-    }
-
-    #hufpi:hover{
-        margin-left: 0%;
-        width: 100%;
-    }
-
-    #hccg:hover{
-        margin-left: 0%;
-        width: 100%;
-    }
-
-
-
 
 }
 
