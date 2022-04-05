@@ -536,7 +536,8 @@ hr{
 
         top: 25%;
         margin-top: 230px;
-        left: -50%;
+        margin-left: auto;
+        margin-right: auto;
 
         width: 100%;
         background-color: beige;
@@ -561,7 +562,7 @@ hr{
     .main p6{
         position: absolute;
         display: block;
-        text-align: justify;
+        text-align: center;
         font-weight: 100;
         z-index: 3;
         margin-top: 20px;
