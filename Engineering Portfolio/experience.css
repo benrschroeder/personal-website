@@ -517,7 +517,7 @@ hr{
         width: 100%;
         z-index: 3;
         top: 75%;
-        margin-top: 15px;
+        margin-top: 85px;
         left: -50%;
         opacity: 0;
         animation: 0.8s ease-in 2s 1 fadeInAnimation;
@@ -556,7 +556,7 @@ hr{
         width: 100%;
         z-index: 3;
         top: 75%;
-        margin-top: 350px;
+        margin-top: 420px;
         left: -50%;
         opacity: 0;
         animation: 0.8s ease-in 2s 1 fadeInAnimation;
