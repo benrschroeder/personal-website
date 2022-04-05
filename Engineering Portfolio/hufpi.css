@@ -147,6 +147,25 @@ hr3{
     width: 220px;
 }
 
+#download{
+    z-index: 3;
+    top: 36.5%;
+    margin-top: 12px;
+    left: 10%;
+    margin-left: 170px;
+    position: fixed;
+    width: 50px;
+    opacity: 1;
+}
+
+#download:hover{
+    transition: 0.3s;
+    margin-left: 167.5px;
+    margin-top: 9.5;
+    width: 55px;
+    cursor: pointer;
+}
+
 #hufpi{
     z-index: 3;
     position: fixed;
