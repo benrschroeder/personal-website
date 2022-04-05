@@ -574,6 +574,8 @@ span:before{
     .header h1{
         display: none;
     }
+
+    /*W e l c o m e*/
     .main p5{
         display: block;
         text-align: left;
@@ -581,8 +583,8 @@ span:before{
         font-size: 25px;
         font-weight: 400;
         position: absolute;
-        top: 20%;
-        margin-top: 400px;
+        top: 80%;
+        margin-top: 10px;
         padding-left: 10%;
         width: 100%;
         animation: 1s ease-out 0s 1 fadeInAnimation;
@@ -596,8 +598,8 @@ span:before{
         font-size: 18px;
         left: 0vw;
         margin-left: 10%;
-        top: 20%;
-        margin-top: 445px;
+        top: 80%;
+        margin-top: 65px;
         color: black;
         width: 80%;
         text-align: justify;
