@@ -177,7 +177,7 @@ hr{
 }
 
 /*Harvard Undergraduate Foreign Policy Initiative*/
-.main p4{
+.hufpi p4{
     font-weight: 400;
     position: fixed;
     text-align: left;
@@ -193,7 +193,7 @@ hr{
 }
 
 /*Policy Chair*/
-.main p5{
+.hufpi p5{
     position: fixed;
     display: block;
     font-weight: 100;
@@ -202,7 +202,7 @@ hr{
     margin-left: 0;
 }
 
-.main p6{
+.hufpi p6{
     position: fixed;
     display: block;
     text-align: justify;
@@ -214,7 +214,7 @@ hr{
 }
 
 /*Harvard College Consulting Group*/
-.main p7{
+.hccg p7{
     font-weight: 400;
     position: fixed;
     text-align: left;
@@ -230,7 +230,7 @@ hr{
 }
 
 /*Associate*/
-.main p8{
+.hccg p8{
     position: fixed;
     display: block;
     font-weight: 100;
@@ -239,7 +239,7 @@ hr{
     margin-left: 0;
 }
 
-.main p9{
+.hccg p9{
     position: fixed;
     display: block;
     text-align: justify;
@@ -521,106 +521,80 @@ hr{
     /*Harvard Undergraduate Foreign Policy Initiative*/
     #hufpim{
         display: block;
-        width: 60%;
+        position: absolute;
+
         margin-left: auto;
         margin-right: auto;
+        left: 25%;
         top: 25%;
-        margin-top: 40px;
+        margin-top: 300px;
+
+        width: 50%;
+        opacity: 1;
     }
 
-    .main p4{
-        font-weight: 400;
-        position: absolute;
-        text-align: center;
-        z-index: 4;
-
-        top: 25%;
-        margin-top: 230px;
-        margin-left: auto;
-        margin-right: auto;
-
-        width: 100%;
-        background-color: beige;
-
-        opacity: 0;
-        animation: 0.8s ease-in 2s 1 fadeInAnimation;
-        animation-fill-mode: forwards;
-    }
-
-    /*Policy Chair*/
-    .main p5{
-        position: absolute;
+    .hufpi p4{
         display: block;
-        text-align: center;
-        font-weight: 100;
-        z-index: 3;
-        margin-top: 0px;
-        margin-left: 0%;
-        width: 100%;
-    }
-
-    .main p6{
         position: absolute;
-        display: block;
         text-align: center;
-        font-weight: 100;
-        z-index: 3;
-        margin-top: 20px;
         width: 80%;
-        margin-left: 10%;
+        
+        top: 75%;
+        margin-top: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .hufpi p5{
+        display: block;
+        position: absolute;
+        text-align: center;
+        width: 100%;
+    }
+    .hufpi p6{
+        display: block;
+        position: absolute;
+        text-align: center;
+        width: 100%;
     }
 
     /*Harvard College Consulting Group*/
     #hccgm{
         display: block;
-        width: 80%;
+        position: absolute;
+
         margin-left: auto;
         margin-right: auto;
+        left: 25%;
         top: 25%;
-        margin-top: 50px;
+        margin-top: 800px;
+
+        width: 50%;
+        opacity: 1;
         box-shadow: 0px 2px 16px 0px rgba(0,0,0,0.5);
     }
 
-    .main p7{
-        font-weight: 400;
+    .hccg p7{
         display: block;
         position: absolute;
         text-align: center;
-
-        z-index: 3;
-        top: 25%;
-        margin-top: 290px;
-
-        left: -62.5%;
-        width: 100%;
-        opacity: 0;
-
-        animation: 0.8s ease-in 2s 1 fadeInAnimation;
-        animation-fill-mode: forwards;
-    }
-
-    /*Associate*/
-    .main p8{
-        position: absolute;
-        display: block;
-        text-align: center;
-        font-weight: 100;
-        z-index: 3;
-        margin-top: 0px;
-        margin-left: 0;
-        width: 100%;
-    }
-
-    .main p9{
-        position: absolute;
-        display: block;
-        text-align: justify;
-        font-weight: 100;
-        z-index: 3;
-        margin-top: 20px;
-        margin-left: 10%;
         width: 80%;
-        padding-bottom: 60px;
+        
+        top: 75%;
+        margin-top: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .hccg p8{
+        display: block;
+        position: absolute;
+        text-align: center;
+        width: 100%;
+    }
+    .hccg p9{
+        display: block;
+        position: absolute;
+        text-align: center;
+        width: 100%;
     }
 
     /*Grid Settings*/
