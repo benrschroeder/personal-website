@@ -539,10 +539,9 @@ hr{
         text-align: center;
         width: 80%;
         
-        top: 75%;
+        top: 25%;
         margin-top: 300px;
-        margin-left: auto;
-        margin-right: auto;
+        left: 0;
     }
     .hufpi p5{
         display: block;
@@ -579,10 +578,9 @@ hr{
         text-align: center;
         width: 80%;
         
-        top: 75%;
+        top: 25%;
         margin-top: 800px;
-        margin-left: auto;
-        margin-right: auto;
+        left: 0;
     }
     .hccg p8{
         display: block;
