@@ -177,7 +177,7 @@ hr{
 }
 
 /*Harvard Undergraduate Foreign Policy Initiative*/
-.hufpi p4{
+.main p4{
     font-weight: 400;
     position: fixed;
     text-align: left;
@@ -193,7 +193,7 @@ hr{
 }
 
 /*Policy Chair*/
-.hufpi p5{
+.main p5{
     position: fixed;
     display: block;
     font-weight: 100;
@@ -202,7 +202,7 @@ hr{
     margin-left: 0;
 }
 
-.hufpi p6{
+.main p6{
     position: fixed;
     display: block;
     text-align: justify;
@@ -214,7 +214,7 @@ hr{
 }
 
 /*Harvard College Consulting Group*/
-.hccg p7{
+.main p7{
     font-weight: 400;
     position: fixed;
     text-align: left;
@@ -230,7 +230,7 @@ hr{
 }
 
 /*Associate*/
-.hccg p8{
+.main p8{
     position: fixed;
     display: block;
     font-weight: 100;
@@ -239,7 +239,7 @@ hr{
     margin-left: 0;
 }
 
-.hccg p9{
+.main p9{
     position: fixed;
     display: block;
     text-align: justify;
@@ -526,7 +526,7 @@ hr{
         margin-left: auto;
         margin-right: auto;
         left: 12.5%;
-        top: 25%;
+        top: 30%;
         margin-top: 340px;
 
         width: 35%;
@@ -535,7 +535,7 @@ hr{
         animation-fill-mode: forwards;
     }
 
-    .hufpi p4{
+    .main p4{
         display: none;
     }
 
@@ -547,7 +547,7 @@ hr{
         margin-left: auto;
         margin-right: auto;
         right: 12.5%;
-        top: 25%;
+        top: 30%;
         margin-top: 340px;
 
         width: 35%;
@@ -558,7 +558,7 @@ hr{
         animation-fill-mode: forwards;
     }
 
-    .hccg p7{
+    .main p7{
         display: none;
     }
 
