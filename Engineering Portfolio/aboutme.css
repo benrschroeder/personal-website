@@ -109,7 +109,8 @@ hr3{
 #profile{
     z-index: 4;
     width: 250px;
-    top: 135px;
+    top: 29.5%;
+    margin-top: -30px;
     padding-left: 140px;
     position: fixed;
     text-align: center;
