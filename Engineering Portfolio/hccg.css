@@ -171,7 +171,8 @@ hr3{
     position: fixed;
     left: 10%;
 
-    top: 270px;
+    top: 36%;
+    margin-top: 65px;
     color: black;
     opacity: 0;
     animation: 1s ease-in 1s 1 fadeInAnimation;
