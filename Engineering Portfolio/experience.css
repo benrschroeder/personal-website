@@ -516,8 +516,8 @@ hr{
         text-align: center;
         width: 100%;
         z-index: 3;
-        top: 25%;
-        margin-top: 465px;
+        top: 75%;
+        margin-top: 365px;
         left: -50%;
         opacity: 0;
         animation: 0.8s ease-in 2s 1 fadeInAnimation;
@@ -555,8 +555,8 @@ hr{
         display: block;
         width: 100%;
         z-index: 3;
-        top: 25%;
-        margin-top: 800px;
+        top: 75%;
+        margin-top: 700px;
         left: -50%;
         opacity: 0;
         animation: 0.8s ease-in 2s 1 fadeInAnimation;
