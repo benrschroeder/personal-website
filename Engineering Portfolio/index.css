@@ -583,8 +583,8 @@ span:before{
         font-size: 25px;
         font-weight: 400;
         position: absolute;
-        top: 80%;
-        margin-top: 10px;
+        top: 20%;
+        margin-top: 380px;
         padding-left: 10%;
         width: 100%;
         animation: 1s ease-out 0s 1 fadeInAnimation;
@@ -598,8 +598,8 @@ span:before{
         font-size: 18px;
         left: 0vw;
         margin-left: 10%;
-        top: 80%;
-        margin-top: 65px;
+        top: 20%;
+        margin-top: 425px;
         color: black;
         width: 80%;
         text-align: justify;
