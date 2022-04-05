@@ -145,6 +145,9 @@ hr3{
     left: 10%;
     position: fixed;
     width: 220px;
+    opacity: 0;
+    animation: 1s ease-in 0.5s 1 fadeInAnimation;
+    animation-fill-mode: forwards;
 }
 
 #download{
@@ -174,7 +177,7 @@ hr3{
     margin-left: 240px;
     width: 200px;
     opacity: 0;
-    animation: 1s ease-in 0.5s 1 fadeInAnimation;
+    animation: 1s ease-in 0.75s 1 fadeInAnimation;
     animation-fill-mode: forwards;
 }
 
