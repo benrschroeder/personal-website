@@ -56,35 +56,34 @@ html, body {
 }
 
 /*-------------*/
-
 hr0{
     display: inline-block;
-    position: absolute;
+    position: fixed;
     z-index: 2;
-    top: -5px;
-    right: 460px;
+    top: 43px;
+    right: 485px;
     width: 135px;
-    height: 0.01vw;
+    height: 1px;
     background-color: black;
     
 }
 hr1{
     display: inline-block;
-    position: absolute;
+    position: fixed;
     z-index: 2;
-    top: 0;
-    margin-left: 150px;
+    top: 43px;
+    right: 335px;
     width: 140px;
-    height: 0.01vw;
+    height: 1px;
     background-color: black;
 }
 
 hr2{
     display: inline-block;
-    position: absolute;
+    position: fixed;
     z-index: 2;
-    top: 0;
-    margin-left: 150px;
+    top: 43px;
+    right: 196px;
     width: 127px;
     height: 3.5px;
     background-color: black;
@@ -92,12 +91,12 @@ hr2{
 
 hr3{
     display: inline-block;
-    position: absolute;
+    position: fixed;
     z-index: 2;
-    top: 0;
-    margin-left: 135px;
+    top: 43px;
+    right: 45px;
     width: 140px;
-    height: 0.01vw;
+    height: 1px;
     background-color: black;
 }
 
