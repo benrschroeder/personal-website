@@ -18,7 +18,6 @@ html, body {
     text-align: left;
     top: 33px;
     right: 30px;
-    width: auto;
     position: fixed;
     z-index: 5;
 }
@@ -28,9 +27,9 @@ html, body {
     display: inline-block;
     text-decoration: none;
     color: black;
-    padding-right: 80px;
     z-index: 2;
     font-size: 16px;
+    width: 145px;
 }
 
 .navbar ul a:hover{
@@ -49,6 +48,7 @@ html, body {
     z-index: 6;
 }
 
+
 .navbar h0:hover{
     font-size: 31px;
 }
@@ -64,8 +64,8 @@ hr0{
     position: fixed;
     z-index: 2;
     top: 43px;
-    right: 485px;
-    width: 135px;
+    right: 480px;
+    width: 145px;
     height: 1px;
     background-color: black;
     
@@ -75,8 +75,8 @@ hr1{
     position: fixed;
     z-index: 2;
     top: 43px;
-    right: 335px;
-    width: 140px;
+    right: 330px;
+    width: 145px;
     height: 1px;
     background-color: black;
 }
@@ -86,8 +86,8 @@ hr2{
     position: fixed;
     z-index: 2;
     top: 43px;
-    right: 196px;
-    width: 127px;
+    right: 180px;
+    width: 145px;
     height: 3.5px;
     background-color: black;
 }
@@ -97,8 +97,8 @@ hr3{
     position: fixed;
     z-index: 2;
     top: 43px;
-    right: 45px;
-    width: 140px;
+    right: 30px;
+    width: 145px;
     height: 1px;
     background-color: black;
 }
