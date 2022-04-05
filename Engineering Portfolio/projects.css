@@ -177,7 +177,10 @@ hr{
     opacity: 0;
     animation: 1s ease-in 1.5s 1 fadeInAnimation;
     animation-fill-mode: forwards;
-    
+}
+
+.main p4{
+    font-weight: 400;
 }
 
 
