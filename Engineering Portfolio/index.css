@@ -563,7 +563,7 @@ span:before{
     #me{
         z-index: 3;
         width: 80%;
-        top: 130px;
+        top: 20%;
         left: 10%;
         position: absolute;
         display: block;
@@ -580,7 +580,8 @@ span:before{
         font-size: 25px;
         font-weight: 400;
         position: absolute;
-        margin-top: 115%;
+        top: 20%;
+        margin-top: 400px;
         padding-left: 10%;
         width: 100%;
         animation: 1s ease-out 0s 1 fadeInAnimation;
@@ -594,7 +595,8 @@ span:before{
         font-size: 18px;
         left: 0vw;
         margin-left: 10%;
-        margin-top: 125%;
+        top: 20%;
+        margin-top: 445px;
         color: black;
         width: 80%;
         text-align: justify;
@@ -640,7 +642,8 @@ span:before{
     #linkedin{
         z-index: 5;
         height: 5%;
-        top: 925px;
+        top: 20%;
+        margin-top: 805px;
         left: 10%;
         position: absolute;
         text-align: center;
@@ -653,7 +656,8 @@ span:before{
     #email{
         z-index: 5;
         height: 5%;
-        top: 922px;
+        top: 20%;
+        margin-top: 802px;
         left: 10%;
         margin-left: 55px;
         position: absolute;
@@ -666,7 +670,8 @@ span:before{
     #download{
         z-index: 5;
         height: 5%;
-        top: 923px;
+        top: 20%;
+        margin-top: 805px;
         left: 10%;
         margin-left: 115px;
         position: absolute;
