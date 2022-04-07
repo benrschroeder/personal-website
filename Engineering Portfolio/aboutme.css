@@ -102,6 +102,111 @@ hr3{
     background-color: black;
 }
 
+
+/*-----Projects Dropdown-----*/
+.dropbtn1{
+    position: fixed;
+    opacity: 0;
+    top: 43px;
+    right: 180px;
+    width: 145px;
+    height: 35px;
+    z-index: 5;
+    cursor: pointer;
+}
+
+.dropdown-content1 {
+    display: none;
+    position: fixed;
+    background-color: white;
+    min-width: 145px;
+    right: 180px;
+    margin-top: 48px;
+    z-index: 7;
+}
+
+.dropdown1:hover .dropdown-content1 {
+    display: inline-block;
+    opacity: 0;
+    animation: 0.15s ease-in 0.1s 1 fadeInAnimation;
+    animation-fill-mode: forwards;
+    cursor: pointer;
+}
+
+.dropdown-content1 a {
+    float: none;
+    color: black;
+    opacity: 0.5;
+    padding: 4px 4px;
+    text-decoration: none;
+    font-size: 14px;
+    display: block;
+    text-align: left;
+    z-index: 6;
+    right: 180px;
+    cursor: pointer;
+}
+
+.dropdown-content1 a:hover {
+    font-size: 16px;
+    opacity: 1;
+    transition: 0.3s;
+}
+
+
+
+
+/*-----Experience Dropdown-----*/
+.dropbtn2{
+    position: fixed;
+    opacity: 0;
+    top: 43px;
+    right: 30px;
+    width: 145px;
+    height: 35px;
+    z-index: 5;
+    cursor: pointer;
+}
+
+.dropdown-content2 {
+    display: none;
+    position: fixed;
+    background-color: white;
+    min-width: 145px;
+    right: 30px;
+    margin-top: 48px;
+    z-index: 7;
+}
+
+.dropdown2:hover .dropdown-content2 {
+    display: inline-block;
+    opacity: 0;
+    animation: 0.15s ease-in 0.1s 1 fadeInAnimation;
+    animation-fill-mode: forwards;
+    cursor: pointer;
+}
+
+.dropdown-content2 a {
+    float: none;
+    color: black;
+    opacity: 0.5;
+    padding: 4px 4px;
+    text-decoration: none;
+    font-size: 14px;
+    display: block;
+    text-align: left;
+    z-index: 6;
+    right: 30px;
+    cursor: pointer;
+}
+
+.dropdown-content2 a:hover {
+    font-size: 16px;
+    opacity: 1;
+    transition: 0.3s;
+}
+
+
 /*Nav Bar*/
 /*-----------------------------------------------------------------*/
 
@@ -369,6 +474,14 @@ hr3{
 @media screen and (max-width: 500px) {    
     /*Nav Bar*/
     .navbar {
+        display: none;
+    }
+
+    .dropdown1 {
+        display: none;
+    }
+
+    .dropdown2 {
         display: none;
     }
 

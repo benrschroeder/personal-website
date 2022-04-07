@@ -14,10 +14,9 @@ html, body {
 /*Nav Bar*/
 .navbar ul{
     text-align: left;
-    top: 30px;
+    top: 33px;
     right: 30px;
-    width: auto;
-    position: absolute;
+    position: fixed;
     z-index: 5;
 }
 
@@ -26,9 +25,9 @@ html, body {
     display: inline-block;
     text-decoration: none;
     color: black;
-    padding-right: 80px;
     z-index: 2;
     font-size: 16px;
+    width: 145px;
 }
 
 .navbar ul a:hover{
@@ -37,15 +36,16 @@ html, body {
 
 .navbar h0{
     vertical-align: baseline;
-    position: absolute;
+    position: fixed;
     color: black;
     font-size: 28px;
     font-weight: 100;
     transition: 0.3s;
-    top: 33px;
+    top: 36px;
     left: 5%;
     z-index: 6;
 }
+
 
 .navbar h0:hover{
     font-size: 31px;
@@ -64,7 +64,7 @@ hr0{
     top: 43px;
     right: 480px;
     width: 145px;
-    height: 1px;
+    height: 3.5px;
     background-color: black;
     
 }
@@ -86,7 +86,7 @@ hr2{
     top: 43px;
     right: 180px;
     width: 145px;
-    height: 3.5px;
+    height: 1px;
     background-color: black;
 }
 
@@ -99,6 +99,109 @@ hr3{
     width: 145px;
     height: 1px;
     background-color: black;
+}
+
+/*-----Projects Dropdown-----*/
+.dropbtn1{
+    position: fixed;
+    opacity: 0;
+    top: 43px;
+    right: 180px;
+    width: 145px;
+    height: 35px;
+    z-index: 5;
+    cursor: pointer;
+}
+
+.dropdown-content1 {
+    display: none;
+    position: fixed;
+    background-color: white;
+    min-width: 145px;
+    right: 180px;
+    margin-top: 48px;
+    z-index: 7;
+}
+
+.dropdown1:hover .dropdown-content1 {
+    display: inline-block;
+    opacity: 0;
+    animation: 0.15s ease-in 0.1s 1 fadeInAnimation;
+    animation-fill-mode: forwards;
+    cursor: pointer;
+}
+
+.dropdown-content1 a {
+    float: none;
+    color: black;
+    opacity: 0.5;
+    padding: 4px 4px;
+    text-decoration: none;
+    font-size: 14px;
+    display: block;
+    text-align: left;
+    z-index: 6;
+    right: 180px;
+    cursor: pointer;
+}
+
+.dropdown-content1 a:hover {
+    font-size: 16px;
+    opacity: 1;
+    transition: 0.3s;
+}
+
+
+
+
+/*-----Experience Dropdown-----*/
+.dropbtn2{
+    position: fixed;
+    opacity: 0;
+    top: 43px;
+    right: 30px;
+    width: 145px;
+    height: 35px;
+    z-index: 5;
+    cursor: pointer;
+}
+
+.dropdown-content2 {
+    display: none;
+    position: fixed;
+    background-color: white;
+    min-width: 145px;
+    right: 30px;
+    margin-top: 48px;
+    z-index: 7;
+}
+
+.dropdown2:hover .dropdown-content2 {
+    display: inline-block;
+    opacity: 0;
+    animation: 0.15s ease-in 0.1s 1 fadeInAnimation;
+    animation-fill-mode: forwards;
+    cursor: pointer;
+}
+
+.dropdown-content2 a {
+    float: none;
+    color: black;
+    opacity: 0.5;
+    padding: 4px 4px;
+    text-decoration: none;
+    font-size: 14px;
+    display: block;
+    text-align: left;
+    z-index: 6;
+    right: 30px;
+    cursor: pointer;
+}
+
+.dropdown-content2 a:hover {
+    font-size: 16px;
+    opacity: 1;
+    transition: 0.3s;
 }
 
 /*Nav Bar*/
@@ -290,6 +393,15 @@ hr3{
     100% {
         transform: translateX(0);
     }
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
 }
 
 /*General*/
