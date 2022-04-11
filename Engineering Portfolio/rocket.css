@@ -15,9 +15,9 @@ html, body {
 /*Nav Bar*/
 .navbar ul{
     text-align: left;
-    top: 33px;
-    right: 30px;
-    position: fixed;
+    top: 26px;
+    right: 40px;
+    position: absolute;
     z-index: 5;
 }
 
@@ -37,19 +37,19 @@ html, body {
 
 .navbar h0{
     vertical-align: baseline;
-    position: fixed;
+    position: absolute;
     color: black;
     font-size: 28px;
     font-weight: 100;
     transition: 0.3s;
-    top: 36px;
-    left: 5%;
+    top: 28px;
+    left: 4.35%;
     z-index: 6;
 }
 
 
 .navbar h0:hover{
-    font-size: 31px;
+    font-size: 29px;
 }
 
 .dropdown {
@@ -57,12 +57,13 @@ html, body {
 }
 
 /*-------------*/
+
 hr0{
     display: inline-block;
-    position: fixed;
+    position: absolute;
     z-index: 2;
-    top: 43px;
-    right: 480px;
+    top: -5px;
+    right: 450px;
     width: 145px;
     height: 1px;
     background-color: black;
@@ -70,10 +71,10 @@ hr0{
 }
 hr1{
     display: inline-block;
-    position: fixed;
+    position: absolute;
     z-index: 2;
-    top: 43px;
-    right: 330px;
+    top: 0;
+    left: 150px;
     width: 145px;
     height: 1px;
     background-color: black;
@@ -81,10 +82,10 @@ hr1{
 
 hr2{
     display: inline-block;
-    position: fixed;
+    position: absolute;
     z-index: 2;
-    top: 43px;
-    right: 180px;
+    top: 0;
+    left: 150px;
     width: 145px;
     height: 3.5px;
     background-color: black;
@@ -92,10 +93,10 @@ hr2{
 
 hr3{
     display: inline-block;
-    position: fixed;
+    position: absolute;
     z-index: 2;
-    top: 43px;
-    right: 30px;
+    top: 0;
+    left: 150px;
     width: 145px;
     height: 1px;
     background-color: black;
@@ -103,7 +104,7 @@ hr3{
 
 /*-----Projects Dropdown-----*/
 .dropbtn1{
-    position: fixed;
+    position: absolute;
     opacity: 0;
     top: 43px;
     right: 180px;
@@ -115,7 +116,7 @@ hr3{
 
 .dropdown-content1 {
     display: none;
-    position: fixed;
+    position: absolute;
     background-color: white;
     min-width: 145px;
     right: 180px;
@@ -156,7 +157,7 @@ hr3{
 
 /*-----Experience Dropdown-----*/
 .dropbtn2{
-    position: fixed;
+    position: absolute;
     opacity: 0;
     top: 43px;
     right: 30px;
@@ -168,7 +169,7 @@ hr3{
 
 .dropdown-content2 {
     display: none;
-    position: fixed;
+    position: absolute;
     background-color: white;
     min-width: 145px;
     right: 30px;
