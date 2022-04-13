@@ -208,6 +208,9 @@ hr3{
 /*-----------------------------------------------------------------*/
 
 /*Main Section*/
+.main b{
+    font-weight: 400;
+}
 
 /*Projects:*/
 /*Harvard Satellite Team*/
@@ -241,7 +244,7 @@ hr3{
 #cube{
     z-index: 2;
     width: 41vw;
-    top: 14.5vw;
+    top: 13vw;
     left: 50vw;
     display: inline-block;
     position: absolute;
@@ -276,6 +279,7 @@ hr3{
 }
 
 /*Payload Team Lead*/
+
 .main p2{
     text-align: left;
     display: inline-block;
@@ -283,113 +287,115 @@ hr3{
     font-size: 2vw;
     font-weight: 400;
     left: 7.5vw;
-    top: 40vw;
+    top: 41vw;
     position: absolute;
     width: 50vw;
 }
 
-.rectangle{
+/*.rectangle{
+    z-index: 1;
     position: absolute;
-    height: 20vw;
-    width: 33vw;
-    top: 45vw;
-    left: 7.5vw;
+    height: 40vw;
+    width: 84.5vw;
+    top: 43vw;
+    left: 6.5vw;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(130, 130, 130, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
+}*/
 
+/*.rectangle1{
+    z-index: 1;
+    position: absolute;
+    height: 23.5vw;
+    width: 84.5vw;
+    top: 58.5vw;
+    left: 6.5vw;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(130, 130, 130, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}*/
+
+/*Payload Design*/
 #payload{
     z-index: 2;
-    width: 25vw;
-    top: 46vw;
-    left: 11vw;
+    width: 27vw;
+    top: 40vw;
+    left: 60vw;
     display: inline-block;
     position: absolute;
     text-align: left;
 }
 
-
-.rectangle1{
-    position: absolute;
-    height: 20vw;
-    width: 33vw;
-    top: 68vw;
-    left: 7.5vw;
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(130, 130, 130, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-#offloader{
-    z-index: 2;
-    width: 30vw;
-    top: 68.25vw;
-    left: 10vw;
-    display: inline-block;
-    position: absolute;
-    text-align: left;
-}
-
-
-
-/*Nitinol Payload Design*/
 .main p3{
     text-align: left;
     display: inline-block;
     z-index: 2;
-    font-size: 1.5vw;
+    font-size: 1.25vw;
     font-weight: 400;
-    left: 44vw;
-    top: 47vw;
+    left: 7.5vw;
+    top: 44vw;
     position: absolute;
-    text-align: justify;
+    text-align: left;
     width: 45vw;
 }
 
 .main p4{
-    text-align: left;
     display: inline-block;
     z-index: 2;
-    font-size: 1.5vw;
-    left: 44vw;
-    top: 49.5vw;
+    font-size: 1.25vw;
+    font-weight: 100;
     color: black;
-    position: absolute;
     text-align: justify;
-    width: 45vw;
+    width: 47vw;
 }
 
 /*Payload Test Development*/
+#offloader{
+    z-index: 2;
+    width: 35vw;
+    top: 60.5vw;
+    left: 56vw;
+    display: inline-block;
+    position: absolute;
+    text-align: left;
+}
+
 .main p5{
     text-align: left;
     display: inline-block;
     z-index: 2;
-    font-size: 1.5vw;
+    font-size: 1.25vw;
     font-weight: 400;
-    left: 44vw;
-    top: 70.5vw;
+    left: 7.5vw;
+    top: 59.5vw;
     position: absolute;
     width: 50vw;
 }
 
 .main p6{
-    text-align: left;
     display: inline-block;
     z-index: 2;
-    font-size: 1.5vw;
+    font-size: 1.25vw;
+    font-weight: 100;
     text-align: justify;
-    left: 44vw;
-    top: 73vw;
     color: black;
-    position: absolute;
-    width: 45vw;
+    width: 47vw;
+}
+
+ul.a{
+    margin-top: 0.5vw;
+}
+
+ul.a li{
+    list-style-type: square;
+    font-size: 1.25vw;
 }
 
 
 #stk{
     z-index: 2;
     width: 33vw;
-    top: 98vw;
-    left: 7vw;
+    top: 85vw;
+    left: 57vw;
     display: inline-block;
     position: absolute;
     text-align: left;
@@ -397,36 +403,36 @@ hr3{
 
 .main p7{
     text-align: left;
+    display: inline-block;
     z-index: 2;
     font-size: 2vw;
     font-weight: 400;
-    left: 7vw;
-    top: 93vw;
+    left: 7.5vw;
+    top: 86vw;
     position: absolute;
     width: 50vw;
 }
 
 .main p8{
     text-align: left;
+    display: inline-block;
     z-index: 2;
-    font-size: 1.5vw;
+    font-size: 1.25vw;
     font-weight: 400;
-    left: 44vw;
-    top: 99vw;
+    left: 7.5vw;
+    top: 89vw;
     position: absolute;
     width: 50vw;
 }
 
 .main p9{
-    text-align: left;
+    text-align: justify;
     display: inline-block;
     z-index: 2;
-    font-size: 1.5vw;
-    left: 44vw;
-    top: 102vw;
+    font-size: 1.25vw;
+    font-weight: 100;
     color: black;
-    position: absolute;
-    width: 45vw;
+    width: 47vw;
     height: 20vw;
 }
 
