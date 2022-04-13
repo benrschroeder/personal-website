@@ -284,69 +284,55 @@ hr3{
     font-size: 2vw;
     font-weight: 400;
     left: 7.5vw;
-    top: 40vw;
+    top: 41vw;
     position: absolute;
     width: 50vw;
 }
 
-.rectangle{
+#outline{
+    z-index: 2;
+    width: 32vw;
+    top: 42.5vw;
+    left: 59vw;
+    display: inline-block;
     position: absolute;
-    height: 20vw;
-    width: 33vw;
-    top: 45vw;
-    left: 7.5vw;
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(130, 130, 130, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: left;
+}
+
+#download{
+    z-index: 3;
+    margin-top: 14.75vw;
+    top: 42.5vw;
+    left: 59vw;
+    position: absolute;
+    width: 4vw;
+    opacity: 1;
+}
+
+#download:hover{
+    transition: 0.3s;
+    width: 4.25vw;
+    cursor: pointer;
 }
 
 #igniter{
     z-index: 2;
-    width: 25vw;
-    top: 45vw;
-    left: 11vw;
+    width: 27vw;
+    top: 62vw;
+    left: 60vw;
     display: inline-block;
     position: absolute;
     text-align: left;
-}
-
-.rectangle1{
-    position: absolute;
-    height: 20vw;
-    width: 33vw;
-    top: 75vw;
-    left: 7.5vw;
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(130, 130, 130, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-#phase0{
-    z-index: 2;
-    width: 25.5vw;
-    top: 77vw;
-    left: 10.5vw;
-    display: inline-block;
-    position: absolute;
-    text-align: left;
-}
-
-.rectangle2{
-    position: absolute;
-    height: 20vw;
-    width: 33vw;
-    top: 101vw;
-    left: 7.5vw;
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(130, 130, 130, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #engine{
     z-index: 2;
-    width: 26vw;
-    top: 103vw;
-    left: 10.5vw;
+    width: 27vw;
+    top: 84vw;
+    left: 60vw;
+    display: inline-block;
     position: absolute;
     text-align: left;
-    
 }
 
 
@@ -356,36 +342,34 @@ hr3{
     text-align: left;
     display: inline-block;
     z-index: 2;
-    font-size: 1.5vw;
+    font-size: 1.25vw;
     font-weight: 400;
-    left: 44vw;
-    top: 45vw;
+    left: 7.5vw;
+    top: 44vw;
     position: absolute;
-    text-align: justify;
+    text-align: left;
     width: 45vw;
 }
 
 .main p4{
-    text-align: left;
     display: inline-block;
     z-index: 2;
-    font-size: 1.5vw;
-    left: 44vw;
-    top: 47.5vw;
+    font-size: 1.25vw;
+    font-weight: 100;
     color: black;
-    position: absolute;
     text-align: justify;
-    width: 45vw;
+    width: 47vw;
 }
 
 /*President*/
 .main p5{
     text-align: left;
+    display: inline-block;
     z-index: 2;
     font-size: 2vw;
     font-weight: 400;
     left: 7.5vw;
-    top: 70vw;
+    top: 62vw;
     position: absolute;
     width: 50vw;
 }
@@ -395,54 +379,57 @@ hr3{
     text-align: left;
     display: inline-block;
     z-index: 2;
-    font-size: 1.5vw;
+    font-size: 1.25vw;
     font-weight: 400;
-    left: 44vw;
-    top: 78vw;
+    left: 7.5vw;
+    top: 65vw;
     position: absolute;
     width: 50vw;
 }
 
 /*Phase 0 is the first...*/
 .main p7{
-    text-align: left;
     display: inline-block;
     z-index: 2;
-    font-size: 1.5vw;
+    font-size: 1.25vw;
+    font-weight: 100;
     text-align: justify;
-    left: 44vw;
-    top: 81vw;
     color: black;
-    position: absolute;
-    width: 45vw;
+    width: 47vw;
 }
 
 /*Phase 1 and 2*/
 .main p8{
     text-align: left;
+    display: inline-block;
     z-index: 2;
-    font-size: 1.5vw;
+    font-size: 1.25vw;
     font-weight: 400;
-    left: 44vw;
-    top: 103vw;
+    left: 7.5vw;
+    top: 78vw;
     position: absolute;
     width: 50vw;
 }
 
 .main p9{
-    text-align: left;
     display: inline-block;
-    z-index: 2;
-    font-size: 1.5vw;
-    left: 44vw;
-    top: 106vw;
-    color: black;
-    position: absolute;
+    z-index: 4;
+    font-size: 1.25vw;
+    font-weight: 100;
     text-align: justify;
-    width: 45vw;
-    height: 20vw;
+    color: black;
+    width: 47vw;
+    padding-bottom: 3vw;
 }
 
+ul.a{
+    margin-top: 0.5vw;
+}
+
+ul.a li{
+    list-style-type: square;
+    font-size: 1.25vw;
+}
 
 
 /*Main Section*/
