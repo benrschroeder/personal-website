@@ -213,17 +213,28 @@ hr3{
 }
 
 /*Projects:*/
+hr11{
+    display: inline-block;
+    position: absolute;
+    background-color: white;
+    margin-left: -1vw;
+    height: 10vw;
+    width: 8.5vw;
+    margin-top: 7vw;
+    z-index: 3;
+}
+
 /*Harvard Satellite Team*/
 .main h1{
     display: inline-block;
     text-align: left;
     z-index: 2;
-    font-size: 3vw;
-    font-weight: 400;
+    font-size: 2vw;
+    font-weight: 100;
     position: absolute;
     left: 7.5vw;
-    top: 10vw;
-    animation: 0.7s ease-out 0s 1 slideInFromRight;   
+    top: 7.5vw; 
+    animation: 1s ease-out 0s 1 slideInFromLeft;
 }
 
 /*Payload Team Lead, Bus Team Member*/
@@ -235,46 +246,47 @@ hr3{
     font-weight: 100;
     position: absolute;
     left: 7.5vw;
-    top: 14vw;
+    top: 10vw;
     color: black;
-    animation: 0.7s ease-out 0s 1 slideInFromRight;
-    
+    animation: 1.35s ease-out 0s 1 slideInFromLeft;
 }
 
 #cube{
     z-index: 2;
-    width: 41vw;
-    top: 13vw;
-    left: 50vw;
+    width: 44vw;
+    top: 9.5vw;
+    left: 44.5vw;
     display: inline-block;
     position: absolute;
     text-align: left;
+    opacity: 0;
+    animation: 2s ease-in 0.5s 1 fadeInAnimation;
+    animation-fill-mode: forwards;
 }
 
 
 /*Project Overview*/
 .main p{
-    text-align: left;
     display: inline-block;
     z-index: 2;
-    font-size: 2vw;
+    font-size: 1.75vw;
     font-weight: 400;
     left: 7.5vw;
-    top: 15.5vw;
+    top: 14.5vw;
     position: absolute;
     width: 50vw;
+    opacity: 0;
+    animation: 1.75s ease-in 0.5s 1 fadeInAnimation;
+    animation-fill-mode: forwards;
 }
 
 .main p1{
-    text-align: left;
-    display: inline-block;
+    display: block;
     z-index: 2;
-    font-size: 1.5vw;
-    left: 7.5vw;
-    top: 20vw;
+    font-size: 1.25vw;
+    font-weight: 100;
     color: black;
-    position: absolute;
-    width: 40vw;
+    width: 30vw;
     text-align: justify;
 }
 
@@ -287,43 +299,15 @@ hr3{
     font-size: 2vw;
     font-weight: 400;
     left: 7.5vw;
-    top: 41vw;
+    top: 39vw;
     position: absolute;
     width: 50vw;
+    opacity: 0;
+    animation: 2.5s ease-in 0.5s 1 fadeInAnimation;
+    animation-fill-mode: forwards;
 }
-
-/*.rectangle{
-    z-index: 1;
-    position: absolute;
-    height: 40vw;
-    width: 84.5vw;
-    top: 43vw;
-    left: 6.5vw;
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(130, 130, 130, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}*/
-
-/*.rectangle1{
-    z-index: 1;
-    position: absolute;
-    height: 23.5vw;
-    width: 84.5vw;
-    top: 58.5vw;
-    left: 6.5vw;
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(130, 130, 130, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}*/
 
 /*Payload Design*/
-#payload{
-    z-index: 2;
-    width: 27vw;
-    top: 40vw;
-    left: 60vw;
-    display: inline-block;
-    position: absolute;
-    text-align: left;
-}
 
 .main p3{
     text-align: left;
@@ -331,9 +315,6 @@ hr3{
     z-index: 2;
     font-size: 1.25vw;
     font-weight: 400;
-    left: 7.5vw;
-    top: 44vw;
-    position: absolute;
     text-align: left;
     width: 45vw;
 }
@@ -349,15 +330,6 @@ hr3{
 }
 
 /*Payload Test Development*/
-#offloader{
-    z-index: 2;
-    width: 35vw;
-    top: 60.5vw;
-    left: 56vw;
-    display: inline-block;
-    position: absolute;
-    text-align: left;
-}
 
 .main p5{
     text-align: left;
@@ -366,9 +338,12 @@ hr3{
     font-size: 1.25vw;
     font-weight: 400;
     left: 7.5vw;
-    top: 59.5vw;
+    top: 55.5vw;
     position: absolute;
     width: 50vw;
+    opacity: 0;
+    animation: 2.5s ease-in 0.5s 1 fadeInAnimation;
+    animation-fill-mode: forwards;
 }
 
 .main p6{
@@ -393,12 +368,15 @@ ul.a li{
 
 #stk{
     z-index: 2;
-    width: 33vw;
-    top: 85vw;
-    left: 57vw;
+    width: 27vw;
+    top: 87vw;
+    left: 62vw;
     display: inline-block;
     position: absolute;
     text-align: left;
+    opacity: 0;
+    animation: 2.5s ease-in 0.5s 1 fadeInAnimation;
+    animation-fill-mode: forwards;
 }
 
 .main p7{
@@ -436,9 +414,221 @@ ul.a li{
     height: 20vw;
 }
 
-
-
 /*Main Section*/
+
+/* Slideshow container */
+.slideshow-container {
+    z-index: 6;
+    width: 27vw;
+    top: 39vw;
+    left: 62vw;
+    display: inline-block;
+    position: absolute;
+    opacity: 0;
+    animation: 2.5s ease-in 0.5s 1 fadeInAnimation;
+    animation-fill-mode: forwards;
+
+}
+
+.mySlides a{
+    z-index: 5;
+    text-align: center;
+    font-size: 1.25vw;
+    font-weight: 200;
+    position: absolute;
+    top: 20vw;
+}
+
+.mySlides p{
+    z-index: 1;
+    text-align: center;
+    font-size: 1.5vw;
+    font-weight: 400;
+    position: absolute;
+    top: 7vw;
+    left: 8vw;
+}
+
+hr{
+    z-index: 8;
+    position: absolute;
+    display: inline-block;
+    width: 27vw;
+
+    top: 19vw;
+    background-color: black;
+}
+
+#payload1{
+    z-index: 2;
+    width: 27vw;
+    margin-top: -1vw;
+
+    display: inline-block;
+    position: absolute;
+    text-align: left;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(130, 130, 130, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+#payload1:hover{
+    opacity: 40%;
+    transition: 0.6s;
+}
+
+#payload2{
+    z-index: 2;
+    width: 27vw;
+    margin-left: 0vw;
+    margin-top: 1.75vw;
+    display: inline-block;
+    position: absolute;
+    text-align: left;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(130, 130, 130, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+#payload2:hover{
+    opacity: 40%;
+    transition: 0.6s;
+}
+
+#payload3{
+    z-index: 2;
+    height: 27vw;
+    margin-left: 5vw;
+    margin-top: -3.5vw;
+    display: inline-block;
+    position: absolute;
+    text-align: left;
+    cursor: pointer;
+    transform: rotate(90deg);
+    box-shadow: 0 4px 8px 0 rgba(130, 130, 130, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+#payload3:hover{
+    opacity: 40%;
+    transition: 0.6s;
+}
+
+/* Slideshow container */
+.slideshow-container1 {
+    z-index: 2;
+    width: 35vw;
+    top: 61vw;
+    left: 62vw;
+    display: inline-block;
+    position: absolute;
+    text-align: left;
+
+    opacity: 0;
+    animation: 2.5s ease-in 0.5s 1 fadeInAnimation;
+    animation-fill-mode: forwards;
+}
+
+.mySlides1 a{
+    z-index: 5;
+    text-align: center;
+    font-size: 1.25vw;
+    font-weight: 200;
+    position: absolute;
+    top: 20vw;
+}
+
+.mySlides1 p{
+    z-index: 1;
+    text-align: center;
+    font-size: 1.5vw;
+    font-weight: 400;
+    position: absolute;
+    top: 8vw;
+    left: 8vw;
+}
+
+hr{
+    z-index: 8;
+    position: absolute;
+    display: inline-block;
+    width: 27vw;
+
+    top: 19vw;
+    background-color: black;
+}
+
+#offloader1{
+    z-index: 2;
+    width: 27vw;
+    margin-top: 2.5vw;
+    display: inline-block;
+    position: absolute;
+    text-align: left;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(130, 130, 130, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+#offloader1:hover{
+    opacity: 40%;
+    transition: 0.6s;
+}
+
+#offloader2{
+    z-index: 2;
+    width: 27vw;
+    margin-left: 0vw;
+    margin-top: 2.5vw;
+    display: inline-block;
+    position: absolute;
+    text-align: left;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(130, 130, 130, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+#offloader2:hover{
+    opacity: 40%;
+    transition: 0.6s;
+}
+
+#offloader3{
+    z-index: 2;
+    width: 27vw;
+    margin-left: 0vw;
+    margin-top: 0.5vw;
+    display: inline-block;
+    position: absolute;
+    text-align: left;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(130, 130, 130, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+#offloader3:hover{
+    opacity: 40%;
+    transition: 0.6s;
+}
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.75s;
+    animation-name: fade;
+    animation-duration: 1.75s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .2} 
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .2} 
+    to {opacity: 1}
+}
+/* Slideshow container */
 
 
 /*-----------------------------------------------------------------*/

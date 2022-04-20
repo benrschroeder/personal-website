@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="./cubesat.css">
     <link rel="icon" href="./Resources/logo.webp" type="image/webp"/>
 </head>
+<script src="slide.js"></script>
+<script src="slide1.js"></script>
 <body>
     <!-- Navbar section -->
     <nav class="navbar">
@@ -67,19 +69,19 @@
 
     <!-- Main Section-->
     <div class="main">
-        <h1>Harvard Satellite Team:</h1>
-        <h2>Payload Team Lead, Bus Team Member</h2>
+        <h1>H A R V A R D&nbsp; S A T E L L I T E&nbsp; T E A M</h1>
+        <h2>< payload team lead, bus team member ></h2>
         <img id="cube" src="./Resources/cube1.webp" alt="" >
-        <p>Project Overview:</p>
-        <p1>The Harvard Satellite Team is a student-led engineering team with Harvard’s SEDS chapter developing a 2U CubeSat as a platform to test a shape-memory alloy-based solar panel deployment system. The CubeSat employs an in-house design for it’s bus structure and photovoltaic cells as well as a nitinol payload deployment mechanism. The design, prototype, and white paper are being submitted to NASA’s CubeSat Launch Initiative (CSLI) targeting a LEO deployment in 2023.</p1>
-        <img id="payload" src="./Resources/payload_labeled.webp" alt="" >
-        <img id="offloader" src="./Resources/offloader_labeled.webp" alt="" >
-        <p2>Payload Lead:</p2>
-        <p3>Payload Design:
-            <p4>As the Payload Team Lead, I have overseen the research and development of our payload candidate designs including the final shape-memory alloy design, a bistable pneumatic actuator, and a central torsion spring deployment system. Having selected the nitinol design, I now lead the fabrication and testing of prototypes to test varying properties of the nitinol wire and PCBs. This semester we will finalize the design and begin integration with the satellite bus.</p4>
-        </p3>
+        <p>Project Overview:
+            <p1>The Harvard Satellite Team is a student-led engineering team with Harvard’s SEDS chapter developing a 2U CubeSat as a platform to test a shape-memory alloy-based solar panel deployment system. The CubeSat employs an in-house design for it’s bus structure and photovoltaic cells as well as a nitinol payload deployment mechanism. The design, prototype, and white paper are being submitted to NASA’s CubeSat Launch Initiative (CSLI) targeting a LEO deployment in 2023.</p1>
+        </p>
+        <p2>Payload Lead:
+            <p3>Payload Design:
+                <p4>As the Payload Team Lead, I have overseen the research and development of our payload candidate designs including the final shape-memory alloy design, a bistable pneumatic actuator, and a central torsion spring deployment system. Having selected the nitinol design, I now lead the fabrication and testing of prototypes to test varying properties of the nitinol wire and PCBs. This semester we will finalize the design and begin integration with the satellite bus.</p4>
+            </p3>
+        </p2>
         <p5>Payload Test Development:
-            <p6>Accurate payload test and evaluation requires replicating a 0G environment like that of low Earth orbit (LEO). To this end I designed and constructed a modular gravity-offloading test stand to accurately and quantifiably evaluate payload performance in LEO-like conditions:
+            <p6>Accurate payload test and evaluation requires replicating a 0G environment like that of low Earth orbit (LEO). To this end I designed and constructed a modular gravity-offloading test stand to accurately and quantifiably evaluate payload performance in LEO-like conditions. The stand includes:
                 <ul class="a">
                     <li>Payload mount hinges designed and 3D-printed from Solidworks to minimize friction during actuation testing</li>
                     <li>Electronics mount for an integrated thermocouple for real-time data on wire temperature data</li>
@@ -94,8 +96,63 @@
         <p8>Orbital Plotting and Central Computer:
             <p9>As a Bus Team member, I learned Ansys' Systems Tool Kit to model our CubSat’s orbital trajectory and communication coverage. I also selected the satellite's on-board computer based on low Earth orbit environment and payload requirements. Finally, I co-authored a white paper on CubeSat design entitled "A Reliable Means of Power Collection and Storage Using a Deployable Soft, Rollable Solar Panel" for submission to NASA's CubeSat Launch Initiative (CSLI).</p9>
         </p8>
+        <hr11>
     </div>
 
+    <!-- Slideshow container -->
+
+    <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade" onclick="plusSlides(1)">
+            <img id="payload1" src="./Resources/payload_labeled.webp" alt="" >
+            <hr>
+            <p>Click to see more...</p>
+            <a>[ Payload CAD ]</a>
+        </div>
+    
+        <div class="mySlides fade" onclick="plusSlides(1)">
+            <img id="payload2" src="./Resources/payload2.webp" alt="" >
+            <hr>
+            <p>Click to see more...</p>
+            <a>[ Soldering nitinol wire terminals ]</a>
+        </div>
+    
+        <div class="mySlides fade" onclick="plusSlides(1)">
+            <img id="payload3" src="./Resources/payload3.webp" alt="" >
+            <hr>
+            <p>Click to see more...</p>
+            <a>[ Experimental payload prototypes ]</a>
+        </div>
+        
+    </div>
+
+    <div class="slideshow-container1">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides1 fade" onclick="plusSlides1(1)">
+            <img id="offloader1" src="./Resources/offloader_labeled.webp" alt="" >
+            <hr>
+            <p>Click to see more...</p>
+            <a>[ Offloader test stand CAD ]</a>
+        </div>
+    
+        <div class="mySlides1 fade" onclick="plusSlides1(1)">
+            <img id="offloader2" src="./Resources/offloader2.webp" alt="" >
+            <hr>
+            <p>Click to see more...</p>
+            <a>[ Offloader in test configuration with prototype ]</a>
+        </div>
+    
+        <div class="mySlides1 fade" onclick="plusSlides1(1)">
+            <img id="offloader3" src="./Resources/offloader3.webp" alt="" >
+            <hr>
+            <p>Click to see more...</p>
+            <a>[ Integrated with teammate's PWM breadboard ]</a>
+        </div>
+        
+        
+    </div>
 
 </body>
 </html>
